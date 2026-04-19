@@ -1,15 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Node
 node_modules/
 dist/
 build/
+
+# Dart / Flutter
 .dart_tool/
-.idea/
-*.class
-*.log
-.DS_Store
-__pycache__/
-*.pyc
-env/
-venv/
-.venv/
+
+# Android
 .gradle/
 android/.gradle/
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# Recordings & video exports (large binary files)
+recordings/
+final versions/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
