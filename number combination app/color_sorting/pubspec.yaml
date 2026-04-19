@@ -1,0 +1,31 @@
+name: liquid_sort_puzzle
+description: "A professional puzzle game where you sort colored liquids between test tubes."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  audioplayers: ^6.1.0
+  vibration: ^3.1.5
+  google_fonts: ^7.0.2
+  google_mobile_ads: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/levels/
+    - assets/sounds/
+    - assets/images/

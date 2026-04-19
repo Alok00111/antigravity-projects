@@ -1,0 +1,1202 @@
+[
+    {
+        "day": 1,
+        "topic": "Self Introduction",
+        "duration": 60,
+        "warmup": {
+            "activity": "Say 'Hello, my name is...' 5 times, faster each time",
+            "focus": "Greeting pronunciation"
+        },
+        "vocabulary": [
+            "hello",
+            "name",
+            "nice to meet you",
+            "I am from",
+            "I work as"
+        ],
+        "sentences": [
+            "Hello, my name is...",
+            "Nice to meet you.",
+            "I am from...",
+            "I work as a..."
+        ],
+        "speakingPrompt": "Introduce yourself to a new colleague. Include your name, where you're from, and what you do.",
+        "fluencyDrill": "Repeat your introduction 3 times without pausing"
+    },
+    {
+        "day": 2,
+        "topic": "Daily Morning Routine",
+        "duration": 60,
+        "warmup": {
+            "activity": "Tongue twister: She sells seashells by the seashore",
+            "focus": "S and SH sounds"
+        },
+        "vocabulary": [
+            "wake up",
+            "brush teeth",
+            "take a shower",
+            "have breakfast",
+            "get dressed"
+        ],
+        "sentences": [
+            "I wake up at 7 AM.",
+            "First, I brush my teeth.",
+            "Then I take a shower.",
+            "After that, I have breakfast."
+        ],
+        "speakingPrompt": "Describe your complete morning routine from waking up to leaving home.",
+        "fluencyDrill": "Describe your routine using only sequence words: first, then, next, after that, finally"
+    },
+    {
+        "day": 3,
+        "topic": "Describing Your Home",
+        "duration": 60,
+        "warmup": {
+            "activity": "Practice room names: kitchen, bedroom, bathroom, living room",
+            "focus": "OO and OM sounds"
+        },
+        "vocabulary": [
+            "bedroom",
+            "kitchen",
+            "bathroom",
+            "living room",
+            "cozy",
+            "spacious"
+        ],
+        "sentences": [
+            "My home has three bedrooms.",
+            "The kitchen is very spacious.",
+            "I love my cozy living room."
+        ],
+        "speakingPrompt": "Give a virtual tour of your home. Describe each room and what you do there.",
+        "fluencyDrill": "Describe one room in 30 seconds without stopping"
+    },
+    {
+        "day": 4,
+        "topic": "Talking About Weather",
+        "duration": 60,
+        "warmup": {
+            "activity": "Practice: sunny, cloudy, rainy, windy, snowy",
+            "focus": "Y ending sounds"
+        },
+        "vocabulary": [
+            "sunny",
+            "cloudy",
+            "rainy",
+            "temperature",
+            "forecast",
+            "humidity"
+        ],
+        "sentences": [
+            "Today is sunny and warm.",
+            "The temperature is 25 degrees.",
+            "It might rain tomorrow."
+        ],
+        "speakingPrompt": "Describe the weather today and compare it with yesterday. How does weather affect your mood?",
+        "fluencyDrill": "Give a 1-minute weather forecast for the week"
+    },
+    {
+        "day": 5,
+        "topic": "Family Members",
+        "duration": 60,
+        "warmup": {
+            "activity": "Practice family words: mother, father, brother, sister, grandmother",
+            "focus": "TH sounds"
+        },
+        "vocabulary": [
+            "parents",
+            "siblings",
+            "relatives",
+            "eldest",
+            "youngest",
+            "close"
+        ],
+        "sentences": [
+            "I have two siblings.",
+            "My parents live nearby.",
+            "We are a close family."
+        ],
+        "speakingPrompt": "Describe your family. Talk about at least 3 family members and your relationship with them.",
+        "fluencyDrill": "Introduce each family member in one breath per person"
+    },
+    {
+        "day": 6,
+        "topic": "Your Favorite Food",
+        "duration": 60,
+        "warmup": {
+            "activity": "Food texture words: crispy, creamy, crunchy, smooth, tender",
+            "focus": "CR sounds"
+        },
+        "vocabulary": [
+            "delicious",
+            "ingredients",
+            "recipe",
+            "homemade",
+            "restaurant",
+            "cuisine"
+        ],
+        "sentences": [
+            "My favorite food is pasta.",
+            "It tastes absolutely delicious.",
+            "The secret is fresh ingredients."
+        ],
+        "speakingPrompt": "Describe your favorite food in detail - the taste, texture, smell, and memories associated with it.",
+        "fluencyDrill": "Explain how to make a simple dish in 2 minutes"
+    },
+    {
+        "day": 7,
+        "topic": "Weekend Plans",
+        "duration": 60,
+        "warmup": {
+            "activity": "Future tense practice: I will, I'm going to, I plan to",
+            "focus": "Will and going to"
+        },
+        "vocabulary": [
+            "relax",
+            "activities",
+            "spend time",
+            "looking forward",
+            "excited",
+            "hopefully"
+        ],
+        "sentences": [
+            "This weekend I'm going to relax.",
+            "I plan to visit my friends.",
+            "I'm looking forward to it."
+        ],
+        "speakingPrompt": "Share your plans for this weekend. Include activities, people you'll meet, and places you'll go.",
+        "fluencyDrill": "Plan an ideal weekend in 90 seconds"
+    },
+    {
+        "day": 8,
+        "topic": "Your Best Friend",
+        "duration": 60,
+        "warmup": {
+            "activity": "Personality adjectives: kind, funny, honest, loyal, supportive",
+            "focus": "Adjective stress"
+        },
+        "vocabulary": [
+            "friendship",
+            "trustworthy",
+            "adventures",
+            "memories",
+            "understand",
+            "support"
+        ],
+        "sentences": [
+            "My best friend is very loyal.",
+            "We've known each other for years.",
+            "We share many memories."
+        ],
+        "speakingPrompt": "Describe your best friend - their personality, how you met, and what makes your friendship special.",
+        "fluencyDrill": "Tell a funny story about you and your friend"
+    },
+    {
+        "day": 9,
+        "topic": "Ordering at a Restaurant",
+        "duration": 60,
+        "warmup": {
+            "activity": "Polite phrases: Could I have, May I order, Would you recommend",
+            "focus": "Polite intonation"
+        },
+        "vocabulary": [
+            "menu",
+            "order",
+            "recommend",
+            "appetizer",
+            "main course",
+            "dessert"
+        ],
+        "sentences": [
+            "Could I see the menu, please?",
+            "What would you recommend?",
+            "I'll have the grilled chicken."
+        ],
+        "speakingPrompt": "Role-play ordering a complete meal at a restaurant. Ask questions about the menu.",
+        "fluencyDrill": "Order a 3-course meal with special requests in under 1 minute"
+    },
+    {
+        "day": 10,
+        "topic": "Giving Directions",
+        "duration": 60,
+        "warmup": {
+            "activity": "Direction words: turn left, turn right, go straight, next to, across from",
+            "focus": "Preposition clarity"
+        },
+        "vocabulary": [
+            "intersection",
+            "landmark",
+            "block",
+            "opposite",
+            "corner",
+            "straight ahead"
+        ],
+        "sentences": [
+            "Go straight for two blocks.",
+            "Turn left at the intersection.",
+            "It's next to the bank."
+        ],
+        "speakingPrompt": "Give detailed directions from your home to a nearby landmark or shop.",
+        "fluencyDrill": "Give directions to 3 different places without hesitation"
+    },
+    {
+        "day": 11,
+        "topic": "Your Daily Commute",
+        "duration": 60,
+        "warmup": {
+            "activity": "Transport words: bus, train, car, bicycle, walking, traffic",
+            "focus": "Transport vocabulary"
+        },
+        "vocabulary": [
+            "commute",
+            "traffic",
+            "crowded",
+            "route",
+            "transfer",
+            "rush hour"
+        ],
+        "sentences": [
+            "My commute takes 30 minutes.",
+            "I usually take the subway.",
+            "Traffic is heavy during rush hour."
+        ],
+        "speakingPrompt": "Describe your daily commute in detail - the route, what you see, and how you feel about it.",
+        "fluencyDrill": "Narrate your commute as if it's happening right now"
+    },
+    {
+        "day": 12,
+        "topic": "A Book You've Read",
+        "duration": 60,
+        "warmup": {
+            "activity": "Literary terms: plot, character, climax, theme, author",
+            "focus": "Literary vocabulary"
+        },
+        "vocabulary": [
+            "storyline",
+            "protagonist",
+            "inspiring",
+            "recommend",
+            "page-turner",
+            "thought-provoking"
+        ],
+        "sentences": [
+            "The book is about...",
+            "The main character is...",
+            "I would recommend this book because..."
+        ],
+        "speakingPrompt": "Summarize a book you've read and explain why you liked or disliked it.",
+        "fluencyDrill": "Pitch a book to someone in 60 seconds to convince them to read it"
+    },
+    {
+        "day": 13,
+        "topic": "Dream Vacation",
+        "duration": 60,
+        "warmup": {
+            "activity": "Travel words: explore, adventure, relaxation, sightseeing, culture",
+            "focus": "Travel vocabulary"
+        },
+        "vocabulary": [
+            "destination",
+            "itinerary",
+            "explore",
+            "adventure",
+            "bucket list",
+            "experience"
+        ],
+        "sentences": [
+            "My dream vacation is in Japan.",
+            "I want to explore the temples.",
+            "It's on my bucket list."
+        ],
+        "speakingPrompt": "Describe your dream vacation - where, why, what activities, and who would you take?",
+        "fluencyDrill": "Plan a 7-day itinerary in 2 minutes"
+    },
+    {
+        "day": 14,
+        "topic": "Cooking a Dish",
+        "duration": 60,
+        "warmup": {
+            "activity": "Cooking verbs: chop, stir, bake, fry, boil, simmer",
+            "focus": "Action verb pronunciation"
+        },
+        "vocabulary": [
+            "ingredients",
+            "preparation",
+            "recipe",
+            "seasoning",
+            "simmer",
+            "garnish"
+        ],
+        "sentences": [
+            "First, chop the vegetables.",
+            "Then, heat the oil in a pan.",
+            "Finally, garnish with herbs."
+        ],
+        "speakingPrompt": "Explain step-by-step how to make your favorite dish.",
+        "fluencyDrill": "Describe the cooking process using only present tense"
+    },
+    {
+        "day": 15,
+        "topic": "A Memorable Birthday",
+        "duration": 60,
+        "warmup": {
+            "activity": "Past tense practice: celebrated, received, surprised, enjoyed",
+            "focus": "Past tense -ED endings"
+        },
+        "vocabulary": [
+            "celebration",
+            "surprise",
+            "memorable",
+            "gathered",
+            "presents",
+            "unforgettable"
+        ],
+        "sentences": [
+            "On my birthday, we celebrated at home.",
+            "I received many wonderful presents.",
+            "It was an unforgettable day."
+        ],
+        "speakingPrompt": "Describe your most memorable birthday - what happened and why it was special.",
+        "fluencyDrill": "Tell the birthday story in chronological order without backtracking"
+    },
+    {
+        "day": 16,
+        "topic": "Your Hobbies",
+        "duration": 60,
+        "warmup": {
+            "activity": "Hobby verbs: play, collect, create, practice, learn",
+            "focus": "Hobby vocabulary"
+        },
+        "vocabulary": [
+            "passionate",
+            "leisure",
+            "relaxing",
+            "creative",
+            "skill",
+            "hobby"
+        ],
+        "sentences": [
+            "In my free time, I enjoy reading.",
+            "I've been doing this for years.",
+            "It helps me relax and unwind."
+        ],
+        "speakingPrompt": "Talk about your hobbies - what they are, when you started, and why you enjoy them.",
+        "fluencyDrill": "Convince someone to try your hobby in 90 seconds"
+    },
+    {
+        "day": 17,
+        "topic": "Ideal Job",
+        "duration": 60,
+        "warmup": {
+            "activity": "Job qualities: challenging, rewarding, creative, stable, flexible",
+            "focus": "Job description words"
+        },
+        "vocabulary": [
+            "career",
+            "fulfilling",
+            "responsibilities",
+            "work-life balance",
+            "growth",
+            "opportunity"
+        ],
+        "sentences": [
+            "My ideal job would be...",
+            "I want a role that offers...",
+            "Career growth is important to me."
+        ],
+        "speakingPrompt": "Describe your ideal job - responsibilities, work environment, and why it appeals to you.",
+        "fluencyDrill": "Explain why you'd be perfect for your ideal job"
+    },
+    {
+        "day": 18,
+        "topic": "A Recent Movie",
+        "duration": 60,
+        "warmup": {
+            "activity": "Film genres: comedy, drama, thriller, action, documentary",
+            "focus": "Genre pronunciation"
+        },
+        "vocabulary": [
+            "plot twist",
+            "cinematography",
+            "performance",
+            "soundtrack",
+            "directed by",
+            "box office"
+        ],
+        "sentences": [
+            "The movie was directed by...",
+            "The plot twist was unexpected.",
+            "I really enjoyed the performance."
+        ],
+        "speakingPrompt": "Review a movie you recently watched - plot, acting, and your opinion.",
+        "fluencyDrill": "Summarize the movie plot in exactly 60 seconds"
+    },
+    {
+        "day": 19,
+        "topic": "Your City or Town",
+        "duration": 60,
+        "warmup": {
+            "activity": "Place adjectives: historic, modern, bustling, peaceful, vibrant",
+            "focus": "Descriptive adjectives"
+        },
+        "vocabulary": [
+            "landmark",
+            "neighborhood",
+            "population",
+            "attractions",
+            "nightlife",
+            "transportation"
+        ],
+        "sentences": [
+            "I live in a bustling city.",
+            "The famous landmark is...",
+            "The best thing about my city is..."
+        ],
+        "speakingPrompt": "Give a comprehensive description of your city - landmarks, culture, pros and cons.",
+        "fluencyDrill": "Be a tour guide for your city for 2 minutes"
+    },
+    {
+        "day": 20,
+        "topic": "A Cultural Celebration",
+        "duration": 60,
+        "warmup": {
+            "activity": "Celebration words: tradition, ceremony, ritual, feast, decoration",
+            "focus": "Cultural vocabulary"
+        },
+        "vocabulary": [
+            "heritage",
+            "traditional",
+            "ceremony",
+            "significance",
+            "customs",
+            "festivities"
+        ],
+        "sentences": [
+            "We celebrate this festival every year.",
+            "The tradition dates back to...",
+            "Family gathers to celebrate."
+        ],
+        "speakingPrompt": "Explain a cultural celebration from your country - when, how, and its significance.",
+        "fluencyDrill": "Explain the celebration as if to a foreign visitor"
+    },
+    {
+        "day": 21,
+        "topic": "Exercise Routine",
+        "duration": 60,
+        "warmup": {
+            "activity": "Exercise words: cardio, stretching, weights, reps, sets",
+            "focus": "Fitness terminology"
+        },
+        "vocabulary": [
+            "workout",
+            "fitness",
+            "motivation",
+            "trainer",
+            "routine",
+            "endurance"
+        ],
+        "sentences": [
+            "I exercise three times a week.",
+            "My routine includes cardio and weights.",
+            "Staying fit is important to me."
+        ],
+        "speakingPrompt": "Describe your exercise routine or the routine you'd like to have.",
+        "fluencyDrill": "Lead a 2-minute guided workout using clear instructions"
+    },
+    {
+        "day": 22,
+        "topic": "Technology You Use",
+        "duration": 60,
+        "warmup": {
+            "activity": "Tech words: smartphone, laptop, app, software, internet",
+            "focus": "Technology vocabulary"
+        },
+        "vocabulary": [
+            "device",
+            "productivity",
+            "convenient",
+            "addicted",
+            "digital",
+            "upgrade"
+        ],
+        "sentences": [
+            "I use my smartphone daily.",
+            "Technology makes life easier.",
+            "I couldn't live without..."
+        ],
+        "speakingPrompt": "Discuss the technology you use daily - devices, apps, and how they help you.",
+        "fluencyDrill": "Explain how to use an app to someone who's never used a smartphone"
+    },
+    {
+        "day": 23,
+        "topic": "Overcoming a Challenge",
+        "duration": 60,
+        "warmup": {
+            "activity": "Challenge words: obstacle, overcome, persevere, struggle, achieve",
+            "focus": "Emotional vocabulary"
+        },
+        "vocabulary": [
+            "challenge",
+            "determination",
+            "resilience",
+            "lesson",
+            "growth",
+            "overcome"
+        ],
+        "sentences": [
+            "I faced a difficult challenge when...",
+            "I learned that perseverance pays off.",
+            "This experience taught me..."
+        ],
+        "speakingPrompt": "Share a challenge you've overcome - what happened, how you dealt with it, and what you learned.",
+        "fluencyDrill": "Tell the story with emotional expressions and pauses for effect"
+    },
+    {
+        "day": 24,
+        "topic": "Your Workspace",
+        "duration": 60,
+        "warmup": {
+            "activity": "Office words: desk, monitor, chair, organized, cluttered",
+            "focus": "Workspace vocabulary"
+        },
+        "vocabulary": [
+            "productive",
+            "organized",
+            "ergonomic",
+            "distraction",
+            "comfortable",
+            "setup"
+        ],
+        "sentences": [
+            "My workspace is very organized.",
+            "I have a comfortable chair.",
+            "A clean desk helps me focus."
+        ],
+        "speakingPrompt": "Give a detailed tour of your workspace - setup, organization, and favorite items.",
+        "fluencyDrill": "Describe your ideal workspace in one continuous 90-second speech"
+    },
+    {
+        "day": 25,
+        "topic": "Music Preferences",
+        "duration": 60,
+        "warmup": {
+            "activity": "Music words: rhythm, melody, lyrics, beat, genre",
+            "focus": "Music terminology"
+        },
+        "vocabulary": [
+            "genre",
+            "artist",
+            "lyrics",
+            "playlist",
+            "concert",
+            "tune"
+        ],
+        "sentences": [
+            "My favorite genre is pop.",
+            "Music affects my mood.",
+            "I listen to music while working."
+        ],
+        "speakingPrompt": "Talk about your music preferences - genres, favorite artists, and how music affects you.",
+        "fluencyDrill": "Describe your favorite song and why you love it"
+    },
+    {
+        "day": 26,
+        "topic": "Learning Styles",
+        "duration": 60,
+        "warmup": {
+            "activity": "Learning words: visual, auditory, kinesthetic, practice, memorize",
+            "focus": "Educational vocabulary"
+        },
+        "vocabulary": [
+            "technique",
+            "absorb",
+            "retain",
+            "method",
+            "concentrate",
+            "effective"
+        ],
+        "sentences": [
+            "I am a visual learner.",
+            "I learn best by doing.",
+            "Practice helps me remember."
+        ],
+        "speakingPrompt": "Describe how you learn best - techniques, environments, and what helps you retain information.",
+        "fluencyDrill": "Teach someone a simple concept using your preferred learning style"
+    },
+    {
+        "day": 27,
+        "topic": "An Embarrassing Moment",
+        "duration": 60,
+        "warmup": {
+            "activity": "Emotion words: embarrassed, awkward, surprised, relieved, humiliated",
+            "focus": "Emotion expression"
+        },
+        "vocabulary": [
+            "awkward",
+            "cringe",
+            "recover",
+            "laugh",
+            "moment",
+            "incident"
+        ],
+        "sentences": [
+            "I remember feeling so embarrassed when...",
+            "Looking back, it's funny now.",
+            "I learned to laugh at myself."
+        ],
+        "speakingPrompt": "Share an embarrassing moment - what happened, how you felt, and how you handled it.",
+        "fluencyDrill": "Tell the story with humor and self-deprecation"
+    },
+    {
+        "day": 28,
+        "topic": "Pets",
+        "duration": 60,
+        "warmup": {
+            "activity": "Pet words: loyal, playful, affectionate, trained, companion",
+            "focus": "Pet vocabulary"
+        },
+        "vocabulary": [
+            "companion",
+            "breed",
+            "veterinarian",
+            "adorable",
+            "playful",
+            "loyal"
+        ],
+        "sentences": [
+            "I have a dog named...",
+            "Pets bring so much joy.",
+            "Taking care of pets teaches responsibility."
+        ],
+        "speakingPrompt": "Describe your pet or a pet you'd like to have - personality, care, and your bond.",
+        "fluencyDrill": "Introduce your pet as if they were a person with a personality"
+    },
+    {
+        "day": 29,
+        "topic": "A Sport You Enjoy",
+        "duration": 60,
+        "warmup": {
+            "activity": "Sports words: score, team, competition, victory, training",
+            "focus": "Sports vocabulary"
+        },
+        "vocabulary": [
+            "athlete",
+            "competition",
+            "teamwork",
+            "practice",
+            "strategy",
+            "championship"
+        ],
+        "sentences": [
+            "My favorite sport is soccer.",
+            "I enjoy watching the World Cup.",
+            "Sports teach discipline and teamwork."
+        ],
+        "speakingPrompt": "Talk about a sport you enjoy - rules, why you like it, and memorable moments.",
+        "fluencyDrill": "Commentate an imaginary play-by-play for 60 seconds"
+    },
+    {
+        "day": 30,
+        "topic": "A Teacher Who Influenced You",
+        "duration": 60,
+        "warmup": {
+            "activity": "Teaching words: inspire, motivate, encourage, mentor, guide",
+            "focus": "Influence vocabulary"
+        },
+        "vocabulary": [
+            "mentor",
+            "inspiration",
+            "impact",
+            "patience",
+            "wisdom",
+            "guidance"
+        ],
+        "sentences": [
+            "This teacher changed my perspective.",
+            "They believed in me when I didn't.",
+            "I'm grateful for their guidance."
+        ],
+        "speakingPrompt": "Describe a teacher who influenced you - their teaching style, lessons, and lasting impact.",
+        "fluencyDrill": "Write a thank you speech to that teacher and deliver it"
+    },
+    {
+        "day": 31,
+        "topic": "Environmental Issues",
+        "duration": 60,
+        "warmup": {
+            "activity": "Environment words: pollution, climate, sustainable, recycle, conservation",
+            "focus": "Environmental vocabulary"
+        },
+        "vocabulary": [
+            "sustainability",
+            "carbon footprint",
+            "renewable",
+            "ecosystem",
+            "biodegradable",
+            "conservation"
+        ],
+        "sentences": [
+            "Climate change is a serious issue.",
+            "We need to reduce our carbon footprint.",
+            "Recycling helps protect the environment."
+        ],
+        "speakingPrompt": "Discuss an environmental issue you care about - causes, effects, and solutions.",
+        "fluencyDrill": "Give a persuasive 2-minute speech on why everyone should care about the environment"
+    },
+    {
+        "day": 32,
+        "topic": "Social Media Debate",
+        "duration": 60,
+        "warmup": {
+            "activity": "Social media words: viral, followers, algorithm, content, influencer",
+            "focus": "Digital vocabulary"
+        },
+        "vocabulary": [
+            "platform",
+            "engagement",
+            "privacy",
+            "addiction",
+            "networking",
+            "content"
+        ],
+        "sentences": [
+            "Social media has pros and cons.",
+            "It connects people globally.",
+            "However, privacy is a concern."
+        ],
+        "speakingPrompt": "Present both sides of the social media debate - benefits and drawbacks.",
+        "fluencyDrill": "Argue one side for 1 minute, then argue the opposite side"
+    },
+    {
+        "day": 33,
+        "topic": "A Historical Event",
+        "duration": 60,
+        "warmup": {
+            "activity": "History words: revolution, era, significant, impact, legacy",
+            "focus": "Historical vocabulary"
+        },
+        "vocabulary": [
+            "significant",
+            "century",
+            "revolution",
+            "impact",
+            "legacy",
+            "era"
+        ],
+        "sentences": [
+            "This event happened in...",
+            "It changed the course of history.",
+            "The legacy still affects us today."
+        ],
+        "speakingPrompt": "Describe a historical event - context, key figures, and its lasting impact.",
+        "fluencyDrill": "Explain the event as if you were a news reporter from that time"
+    },
+    {
+        "day": 34,
+        "topic": "A Scientific Concept",
+        "duration": 60,
+        "warmup": {
+            "activity": "Science words: hypothesis, experiment, evidence, theory, research",
+            "focus": "Scientific vocabulary"
+        },
+        "vocabulary": [
+            "theory",
+            "experiment",
+            "evidence",
+            "discovery",
+            "hypothesis",
+            "research"
+        ],
+        "sentences": [
+            "The theory explains...",
+            "Scientists discovered that...",
+            "This has practical applications in..."
+        ],
+        "speakingPrompt": "Explain a scientific concept in simple terms - what it is and why it matters.",
+        "fluencyDrill": "Explain the concept to a 10-year-old in 90 seconds"
+    },
+    {
+        "day": 35,
+        "topic": "Future of Work",
+        "duration": 60,
+        "warmup": {
+            "activity": "Work words: remote, automation, skills, adapt, flexible",
+            "focus": "Work vocabulary"
+        },
+        "vocabulary": [
+            "automation",
+            "remote work",
+            "gig economy",
+            "upskilling",
+            "flexibility",
+            "AI"
+        ],
+        "sentences": [
+            "The workplace is evolving rapidly.",
+            "Remote work is becoming common.",
+            "New skills are needed for the future."
+        ],
+        "speakingPrompt": "Discuss how work might change in the next 20 years and how to prepare.",
+        "fluencyDrill": "Present your vision of the ideal future workplace"
+    },
+    {
+        "day": 36,
+        "topic": "Describing Art",
+        "duration": 60,
+        "warmup": {
+            "activity": "Art words: abstract, portrait, landscape, sculpture, masterpiece",
+            "focus": "Art vocabulary"
+        },
+        "vocabulary": [
+            "masterpiece",
+            "composition",
+            "expression",
+            "interpretation",
+            "artist",
+            "medium"
+        ],
+        "sentences": [
+            "This artwork represents...",
+            "The artist used vibrant colors.",
+            "Art can evoke strong emotions."
+        ],
+        "speakingPrompt": "Describe a piece of art you admire - the work, the artist, and what it means to you.",
+        "fluencyDrill": "Describe an imaginary painting in vivid detail for 2 minutes"
+    },
+    {
+        "day": 37,
+        "topic": "Mental Health Awareness",
+        "duration": 60,
+        "warmup": {
+            "activity": "Wellness words: stress, anxiety, mindfulness, therapy, self-care",
+            "focus": "Mental health vocabulary"
+        },
+        "vocabulary": [
+            "wellbeing",
+            "stress management",
+            "mindfulness",
+            "therapy",
+            "self-care",
+            "balance"
+        ],
+        "sentences": [
+            "Mental health is as important as physical health.",
+            "It's okay to ask for help.",
+            "Self-care practices include..."
+        ],
+        "speakingPrompt": "Discuss the importance of mental health awareness and ways to maintain wellbeing.",
+        "fluencyDrill": "Give advice to someone feeling stressed"
+    },
+    {
+        "day": 38,
+        "topic": "Globalization Impact",
+        "duration": 60,
+        "warmup": {
+            "activity": "Global words: international, trade, culture, economy, interconnected",
+            "focus": "Global vocabulary"
+        },
+        "vocabulary": [
+            "interconnected",
+            "trade",
+            "outsourcing",
+            "cultural exchange",
+            "economy",
+            "multinational"
+        ],
+        "sentences": [
+            "Globalization has connected the world.",
+            "It has both positive and negative effects.",
+            "Cultural exchange has increased."
+        ],
+        "speakingPrompt": "Discuss how globalization has affected your daily life - products, culture, opportunities.",
+        "fluencyDrill": "Debate whether globalization is good or bad"
+    },
+    {
+        "day": 39,
+        "topic": "Education System",
+        "duration": 60,
+        "warmup": {
+            "activity": "Education words: curriculum, degree, assessment, tuition, scholarship",
+            "focus": "Education vocabulary"
+        },
+        "vocabulary": [
+            "curriculum",
+            "tuition",
+            "degree",
+            "assessment",
+            "reform",
+            "literacy"
+        ],
+        "sentences": [
+            "The education system in my country...",
+            "I believe education should...",
+            "Changes are needed in..."
+        ],
+        "speakingPrompt": "Describe your country's education system - structure, strengths, and areas for improvement.",
+        "fluencyDrill": "Propose one major education reform and justify it"
+    },
+    {
+        "day": 40,
+        "topic": "Ethical Dilemmas",
+        "duration": 60,
+        "warmup": {
+            "activity": "Ethics words: moral, right, wrong, consequence, principle",
+            "focus": "Ethical vocabulary"
+        },
+        "vocabulary": [
+            "moral",
+            "dilemma",
+            "consequence",
+            "principle",
+            "ethics",
+            "justify"
+        ],
+        "sentences": [
+            "This situation raises ethical questions.",
+            "On one hand... on the other hand...",
+            "I believe the right choice is..."
+        ],
+        "speakingPrompt": "Present an ethical dilemma and explain different perspectives and your opinion.",
+        "fluencyDrill": "Argue both sides of the dilemma convincingly"
+    },
+    {
+        "day": 41,
+        "topic": "Artificial Intelligence",
+        "duration": 60,
+        "warmup": {
+            "activity": "AI words: algorithm, machine learning, automation, data, neural",
+            "focus": "Tech vocabulary"
+        },
+        "vocabulary": [
+            "machine learning",
+            "automation",
+            "algorithm",
+            "neural network",
+            "robotics",
+            "data"
+        ],
+        "sentences": [
+            "AI is transforming industries.",
+            "There are concerns about job displacement.",
+            "AI has potential benefits in healthcare."
+        ],
+        "speakingPrompt": "Discuss AI - current applications, future possibilities, and ethical concerns.",
+        "fluencyDrill": "Explain how AI works to someone who's never heard of it"
+    },
+    {
+        "day": 42,
+        "topic": "Cultural Differences",
+        "duration": 60,
+        "warmup": {
+            "activity": "Culture words: tradition, customs, values, norms, diversity",
+            "focus": "Cultural vocabulary"
+        },
+        "vocabulary": [
+            "customs",
+            "values",
+            "diversity",
+            "norms",
+            "etiquette",
+            "traditions"
+        ],
+        "sentences": [
+            "In my culture, we...",
+            "I was surprised to learn that...",
+            "Cultural exchange broadens perspectives."
+        ],
+        "speakingPrompt": "Describe cultural differences you've noticed - either from travel or meeting people.",
+        "fluencyDrill": "Role-play explaining your culture to a foreign visitor"
+    },
+    {
+        "day": 43,
+        "topic": "A Work Process",
+        "duration": 60,
+        "warmup": {
+            "activity": "Process words: step, procedure, workflow, system, output",
+            "focus": "Process vocabulary"
+        },
+        "vocabulary": [
+            "workflow",
+            "procedure",
+            "efficiency",
+            "streamline",
+            "optimize",
+            "output"
+        ],
+        "sentences": [
+            "The process begins with...",
+            "Next, we move to...",
+            "Finally, the output is..."
+        ],
+        "speakingPrompt": "Explain a complex process from your work or study in clear, step-by-step detail.",
+        "fluencyDrill": "Teach the process as if training a new colleague"
+    },
+    {
+        "day": 44,
+        "topic": "Diversity and Inclusion",
+        "duration": 60,
+        "warmup": {
+            "activity": "Diversity words: inclusive, equity, representation, belonging, bias",
+            "focus": "Social vocabulary"
+        },
+        "vocabulary": [
+            "inclusive",
+            "representation",
+            "equity",
+            "belonging",
+            "bias",
+            "diverse"
+        ],
+        "sentences": [
+            "Diversity brings different perspectives.",
+            "Inclusion means everyone feels valued.",
+            "We can promote diversity by..."
+        ],
+        "speakingPrompt": "Discuss why diversity and inclusion matter in workplaces and society.",
+        "fluencyDrill": "Give a 2-minute motivational speech about embracing differences"
+    },
+    {
+        "day": 45,
+        "topic": "A News Story",
+        "duration": 60,
+        "warmup": {
+            "activity": "News words: headline, breaking, report, coverage, journalist",
+            "focus": "News vocabulary"
+        },
+        "vocabulary": [
+            "headline",
+            "coverage",
+            "source",
+            "bias",
+            "investigation",
+            "breaking news"
+        ],
+        "sentences": [
+            "A recent news story that caught my attention...",
+            "The implications are significant because...",
+            "This affects people by..."
+        ],
+        "speakingPrompt": "Summarize a recent news story - facts, your analysis, and broader implications.",
+        "fluencyDrill": "Present the news as a TV news anchor"
+    },
+    {
+        "day": 46,
+        "topic": "Renewable Energy",
+        "duration": 60,
+        "warmup": {
+            "activity": "Energy words: solar, wind, hydroelectric, sustainable, grid",
+            "focus": "Energy vocabulary"
+        },
+        "vocabulary": [
+            "solar",
+            "wind power",
+            "sustainable",
+            "grid",
+            "efficiency",
+            "emissions"
+        ],
+        "sentences": [
+            "Renewable energy sources include...",
+            "The benefits of clean energy are...",
+            "Challenges include cost and infrastructure."
+        ],
+        "speakingPrompt": "Discuss renewable energy - types, benefits, challenges, and future outlook.",
+        "fluencyDrill": "Convince a skeptic to support renewable energy"
+    },
+    {
+        "day": 47,
+        "topic": "Work-Life Balance",
+        "duration": 60,
+        "warmup": {
+            "activity": "Balance words: boundaries, priorities, burnout, flexible, wellbeing",
+            "focus": "Wellness vocabulary"
+        },
+        "vocabulary": [
+            "boundaries",
+            "priorities",
+            "burnout",
+            "flexibility",
+            "harmony",
+            "disconnect"
+        ],
+        "sentences": [
+            "Work-life balance is essential.",
+            "I try to set clear boundaries.",
+            "Taking time off helps me recharge."
+        ],
+        "speakingPrompt": "Discuss work-life balance - what it means to you and strategies to achieve it.",
+        "fluencyDrill": "Give advice to a workaholic colleague"
+    },
+    {
+        "day": 48,
+        "topic": "Leadership Qualities",
+        "duration": 60,
+        "warmup": {
+            "activity": "Leadership words: vision, integrity, empathy, decisive, inspire",
+            "focus": "Leadership vocabulary"
+        },
+        "vocabulary": [
+            "vision",
+            "integrity",
+            "empathy",
+            "decisive",
+            "accountability",
+            "inspire"
+        ],
+        "sentences": [
+            "A great leader should...",
+            "I admire leaders who...",
+            "Leadership is about..."
+        ],
+        "speakingPrompt": "Describe the qualities of an effective leader and give examples of leaders you admire.",
+        "fluencyDrill": "Deliver a speech as if you're leading a team through a challenge"
+    },
+    {
+        "day": 49,
+        "topic": "Art in Society",
+        "duration": 60,
+        "warmup": {
+            "activity": "Art words: expression, creativity, culture, heritage, contemporary",
+            "focus": "Art vocabulary"
+        },
+        "vocabulary": [
+            "expression",
+            "creativity",
+            "heritage",
+            "contemporary",
+            "patron",
+            "inspiration"
+        ],
+        "sentences": [
+            "Art reflects society's values.",
+            "It can inspire change.",
+            "Art preservation is important."
+        ],
+        "speakingPrompt": "Discuss the role of art in society - its purpose, impact, and importance.",
+        "fluencyDrill": "Curate a virtual art exhibition and present it"
+    },
+    {
+        "day": 50,
+        "topic": "Progress Reflection",
+        "duration": 60,
+        "warmup": {
+            "activity": "Reflection words: improvement, progress, milestone, journey, growth",
+            "focus": "Self-assessment"
+        },
+        "vocabulary": [
+            "milestone",
+            "journey",
+            "improvement",
+            "confidence",
+            "fluency",
+            "dedication"
+        ],
+        "sentences": [
+            "I've made significant progress.",
+            "My speaking has improved in...",
+            "The next 50 days I will focus on..."
+        ],
+        "speakingPrompt": "Reflect on your first 50 days - improvements, challenges, and goals for the next 50.",
+        "fluencyDrill": "Record a 3-minute reflection speech without any notes"
+    }
+]

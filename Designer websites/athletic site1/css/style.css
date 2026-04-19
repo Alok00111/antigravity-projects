@@ -1,0 +1,1091 @@
+/* ============================================================
+   ATHLETIC PHYSIQUE V2 — WARM ATHLETIC DESIGN SYSTEM
+   8-pt grid | Warm dark | Glassmorphism | Fluid typography
+   Nike/UA/Gymshark inspired — fiery orange-red accent
+   ============================================================ */
+
+/* ----- CSS CUSTOM PROPERTIES ----- */
+:root {
+    /* ── Palette — Warm Athletic ── */
+    --bg-deep: #080808;
+    --bg-base: #0e0e0e;
+    --bg-surface: #161616;
+    --bg-elevated: #1e1e1e;
+    --bg-card: rgba(20, 20, 20, 0.72);
+    --border-glass: rgba(255, 255, 255, 0.06);
+    --border-hover: rgba(255, 255, 255, 0.12);
+
+    --text-primary: #f5f5f5;
+    --text-secondary: #a0a0a0;
+    --text-muted: #5a5a5a;
+
+    /* Fiery Orange-Red — athletic energy */
+    --accent: #FF3C00;
+    --accent-rgb: 255, 60, 0;
+    --accent-glow: rgba(255, 60, 0, 0.25);
+    --accent-soft: #ff5722;
+    --accent-alt: #FFB800;
+    --accent-alt-rgb: 255, 184, 0;
+
+    /* Secondary warm tone */
+    --warm-white: #fff5eb;
+
+    /* Macro dashboard colors — warm palette */
+    --protein: #FF3C00;
+    --protein-rgb: 255, 60, 0;
+    --carbs: #FFB800;
+    --carbs-rgb: 255, 184, 0;
+    --fat: #8B5CF6;
+    --fat-rgb: 139, 92, 246;
+
+    /* ── Typography ── */
+    --ff-display: 'Outfit', sans-serif;
+    --ff-body: 'Inter', sans-serif;
+
+    --fs-hero: clamp(3.2rem, 8vw, 8rem);
+    --fs-h2: clamp(2rem, 4vw, 3.5rem);
+    --fs-h3: clamp(1.1rem, 1.8vw, 1.35rem);
+    --fs-body: clamp(0.9rem, 1.1vw, 1.05rem);
+    --fs-small: clamp(0.7rem, 0.9vw, 0.82rem);
+    --fs-tag: clamp(0.65rem, 0.8vw, 0.75rem);
+
+    --lh-body: 1.6;
+    --lh-heading: 1.05;
+
+    /* ── Spacing (8pt grid) ── */
+    --sp-4: 4px;
+    --sp-8: 8px;
+    --sp-16: 16px;
+    --sp-24: 24px;
+    --sp-32: 32px;
+    --sp-40: 40px;
+    --sp-48: 48px;
+    --sp-56: 56px;
+    --sp-64: 64px;
+    --sp-80: 80px;
+    --sp-96: 96px;
+    --sp-120: 120px;
+
+    /* ── Radius ── */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+    --radius-full: 9999px;
+
+    /* ── Shadows — warm tinted ── */
+    --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.55), 0 2px 8px rgba(0, 0, 0, 0.4);
+    --shadow-glow: 0 0 40px rgba(var(--accent-rgb), 0.2), 0 0 80px rgba(var(--accent-rgb), 0.08);
+    --shadow-deep: 0 24px 64px rgba(0, 0, 0, 0.7);
+
+    /* ── Transitions ── */
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --dur-fast: 0.2s;
+    --dur-med: 0.4s;
+    --dur-slow: 0.8s;
+}
+
+/* ----- RESET & BASE ----- */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+body {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+    color: var(--text-primary);
+    background: var(--bg-deep);
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+}
+
+img,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
+.accent {
+    color: var(--accent);
+}
+
+/* Section shared styles */
+.section-tag {
+    font-family: var(--ff-body);
+    font-size: var(--fs-tag);
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: var(--sp-16);
+}
+
+.section-title {
+    font-family: var(--ff-display);
+    font-size: var(--fs-h2);
+    font-weight: 800;
+    line-height: var(--lh-heading);
+    color: var(--text-primary);
+    margin-bottom: var(--sp-16);
+}
+
+.section-subtitle {
+    font-size: var(--fs-body);
+    color: var(--text-secondary);
+    max-width: 540px;
+    line-height: var(--lh-body);
+}
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--sp-16) var(--sp-40);
+    background: rgba(8, 8, 8, 0.7);
+    backdrop-filter: blur(20px) saturate(1.4);
+    -webkit-backdrop-filter: blur(20px) saturate(1.4);
+    border-bottom: 1px solid var(--border-glass);
+    transition: background var(--dur-med) var(--ease-out-expo);
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-8);
+    font-family: var(--ff-display);
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.04em;
+}
+
+.nav__logo-icon {
+    color: var(--accent);
+    font-size: 1.3rem;
+}
+
+.nav__links {
+    display: flex;
+    gap: var(--sp-32);
+}
+
+.nav__link {
+    font-size: var(--fs-small);
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    transition: color var(--dur-fast);
+    position: relative;
+}
+
+.nav__link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: var(--accent);
+    transition: width var(--dur-med) var(--ease-out-expo);
+}
+
+.nav__link:hover,
+.nav__link--active {
+    color: var(--text-primary);
+}
+
+.nav__link:hover::after,
+.nav__link--active::after {
+    width: 100%;
+}
+
+.nav__link:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+    border-radius: 2px;
+}
+
+.nav__cta {
+    padding: var(--sp-8) var(--sp-24);
+    font-size: var(--fs-small);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border: 1px solid rgba(var(--accent-rgb), 0.5);
+    border-radius: var(--radius-full);
+    color: var(--accent);
+    transition: all var(--dur-med) var(--ease-out-expo);
+}
+
+.nav__cta:hover {
+    background: rgba(var(--accent-rgb), 0.12);
+    border-color: var(--accent);
+    box-shadow: 0 0 24px rgba(var(--accent-rgb), 0.2);
+}
+
+.nav__cta:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+
+
+/* ============================================================
+   HERO SECTION
+   ============================================================ */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: var(--bg-deep);
+}
+
+#hero-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background:
+        radial-gradient(ellipse 60% 50% at 50% 50%, transparent 0%, var(--bg-deep) 100%),
+        linear-gradient(180deg, transparent 60%, var(--bg-deep) 100%);
+    pointer-events: none;
+}
+
+/* Warm ambient glow overlay */
+.hero__ambient {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(circle, rgba(var(--accent-rgb), 0.06) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.hero__content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    padding: 0 var(--sp-24);
+    max-width: 900px;
+}
+
+.hero__tag {
+    font-family: var(--ff-body);
+    font-size: var(--fs-tag);
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: var(--sp-24);
+    opacity: 0.9;
+}
+
+.hero__title {
+    font-family: var(--ff-display);
+    font-size: var(--fs-hero);
+    font-weight: 900;
+    line-height: var(--lh-heading);
+    color: var(--text-primary);
+    margin-bottom: var(--sp-24);
+}
+
+.hero__title-line {
+    display: block;
+}
+
+.hero__title-line--accent {
+    background: linear-gradient(135deg, #FF3C00 0%, #FF6B35 40%, #FFB800 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 0 40px rgba(var(--accent-rgb), 0.3));
+}
+
+.hero__subtitle {
+    font-size: clamp(1rem, 1.4vw, 1.2rem);
+    color: var(--text-secondary);
+    line-height: var(--lh-body);
+    max-width: 560px;
+    margin: 0 auto var(--sp-40) auto;
+}
+
+/* CTA Button — fiery gradient */
+.hero__cta {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--sp-16) var(--sp-48);
+    font-family: var(--ff-display);
+    font-size: var(--fs-small);
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(135deg, #FF3C00 0%, #FF6B35 50%, #FFB800 100%);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+    transition: transform var(--dur-med) var(--ease-spring), box-shadow var(--dur-med);
+    z-index: 1;
+    border: none;
+}
+
+.hero__cta:hover {
+    transform: scale(1.04);
+    box-shadow: var(--shadow-glow);
+}
+
+.hero__cta:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 4px;
+}
+
+.hero__cta-glow {
+    position: absolute;
+    inset: -2px;
+    border-radius: var(--radius-full);
+    background: linear-gradient(135deg, #FF3C00, #FFB800);
+    opacity: 0.4;
+    filter: blur(18px);
+    z-index: -1;
+    animation: pulse-glow 2.5s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+
+    0%,
+    100% {
+        opacity: 0.2;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.15);
+    }
+}
+
+/* Magnetic Button base class */
+.magnetic-btn {
+    will-change: transform;
+}
+
+/* Scroll indicator */
+.hero__scroll-indicator {
+    position: absolute;
+    bottom: var(--sp-40);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--sp-8);
+}
+
+.hero__scroll-line {
+    width: 1px;
+    height: 48px;
+    background: linear-gradient(180deg, var(--accent) 0%, transparent 100%);
+    animation: scroll-line 2s ease-in-out infinite;
+}
+
+@keyframes scroll-line {
+    0% {
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+
+    50% {
+        transform: scaleY(1);
+        transform-origin: top;
+    }
+
+    51% {
+        transform-origin: bottom;
+    }
+
+    100% {
+        transform: scaleY(0);
+        transform-origin: bottom;
+    }
+}
+
+.hero__scroll-text {
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+}
+
+
+/* ============================================================
+   MUSCULATURE SECTION
+   ============================================================ */
+.musculature {
+    position: relative;
+    min-height: 100vh;
+    padding: var(--sp-120) var(--sp-40) var(--sp-96);
+    background: var(--bg-base);
+}
+
+/* Warm ambient top glow */
+.musculature::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 500px;
+    height: 300px;
+    background: radial-gradient(ellipse, rgba(var(--accent-rgb), 0.04) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.musculature__header {
+    margin-bottom: var(--sp-64);
+}
+
+.musculature__model-anchor {
+    position: sticky;
+    top: 80px;
+    float: left;
+    width: 40%;
+    height: calc(100vh - 120px);
+    margin-right: var(--sp-48);
+    pointer-events: none;
+}
+
+.musculature__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--sp-24);
+    max-width: 560px;
+    margin-left: auto;
+}
+
+/* ---------- Muscle Card ---------- */
+.muscle-card {
+    perspective: 600px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateX(120px);
+}
+
+.muscle-card__inner {
+    position: relative;
+    padding: var(--sp-32);
+    border-radius: var(--radius-lg);
+    background: var(--bg-card);
+    border: 1px solid var(--border-glass);
+    backdrop-filter: blur(24px) saturate(1.2);
+    -webkit-backdrop-filter: blur(24px) saturate(1.2);
+    box-shadow: var(--shadow-card);
+    transition:
+        border-color var(--dur-med),
+        box-shadow var(--dur-med),
+        transform var(--dur-fast) var(--ease-out-expo);
+    transform-style: preserve-3d;
+    transform: rotateX(var(--rotateX, 0deg)) rotateY(var(--rotateY, 0deg));
+}
+
+.muscle-card:hover .muscle-card__inner,
+.muscle-card:focus-within .muscle-card__inner {
+    border-color: rgba(var(--accent-rgb), 0.3);
+    box-shadow: var(--shadow-card), 0 0 40px rgba(var(--accent-rgb), 0.08);
+}
+
+.muscle-card__icon {
+    width: 48px;
+    height: 48px;
+    color: var(--accent);
+    margin-bottom: var(--sp-16);
+    opacity: 0.8;
+}
+
+.muscle-card__name {
+    font-family: var(--ff-display);
+    font-size: var(--fs-h3);
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--sp-4);
+}
+
+.muscle-card__aka {
+    font-size: var(--fs-tag);
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: var(--accent);
+    margin-bottom: var(--sp-16);
+    opacity: 0.9;
+}
+
+.muscle-card__desc {
+    font-size: var(--fs-small);
+    color: var(--text-secondary);
+    line-height: var(--lh-body);
+    margin-bottom: var(--sp-24);
+}
+
+.muscle-card__stats {
+    display: flex;
+    gap: var(--sp-24);
+    padding-top: var(--sp-16);
+    border-top: 1px solid var(--border-glass);
+}
+
+.muscle-card__stat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.muscle-card__stat-value {
+    font-family: var(--ff-display);
+    font-size: var(--fs-small);
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.muscle-card__stat-label {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* Highlighted by 3D model hover */
+.muscle-card--highlighted .muscle-card__inner {
+    border-color: rgba(var(--accent-rgb), 0.4);
+    box-shadow: var(--shadow-card), 0 0 48px rgba(var(--accent-rgb), 0.12);
+}
+
+
+/* ============================================================
+   NUTRITION SECTION
+   ============================================================ */
+.nutrition {
+    position: relative;
+    min-height: 100vh;
+    padding: var(--sp-120) var(--sp-40) var(--sp-96);
+    background: var(--bg-deep);
+    border-top: 1px solid var(--border-glass);
+}
+
+.nutrition::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 400px;
+    background: radial-gradient(ellipse, rgba(var(--accent-rgb), 0.04) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.nutrition__header {
+    margin-bottom: var(--sp-64);
+}
+
+.nutrition__dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-48);
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ---- Chart Panel ---- */
+.nutrition__chart-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--sp-32);
+    padding: var(--sp-40);
+    background: var(--bg-card);
+    border: 1px solid var(--border-glass);
+    border-radius: var(--radius-lg);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    box-shadow: var(--shadow-card);
+}
+
+.nutrition__chart-ring {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.donut-chart {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.donut-track {
+    fill: none;
+    stroke: var(--bg-elevated);
+    stroke-width: 14;
+}
+
+.donut-segment {
+    fill: none;
+    stroke-width: 14;
+    stroke-linecap: round;
+    transition: stroke-dasharray var(--dur-slow) var(--ease-out-expo);
+}
+
+.donut-segment--protein {
+    stroke: var(--protein);
+}
+
+.donut-segment--carbs {
+    stroke: var(--carbs);
+}
+
+.donut-segment--fat {
+    stroke: var(--fat);
+}
+
+.nutrition__chart-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nutrition__chart-cal {
+    display: block;
+    font-family: var(--ff-display);
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.nutrition__chart-cal-label {
+    font-size: var(--fs-tag);
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+}
+
+/* Macro legend */
+.nutrition__macro-legend {
+    display: flex;
+    gap: var(--sp-24);
+}
+
+.macro-legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-8);
+    font-size: var(--fs-small);
+    color: var(--text-secondary);
+}
+
+.macro-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.macro-dot--protein {
+    background: var(--protein);
+}
+
+.macro-dot--carbs {
+    background: var(--carbs);
+}
+
+.macro-dot--fat {
+    background: var(--fat);
+}
+
+.macro-value {
+    font-family: var(--ff-display);
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* Target bars */
+.nutrition__targets {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-16);
+}
+
+.target-bar__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--sp-4);
+}
+
+.target-bar__name {
+    font-size: var(--fs-small);
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.target-bar__value {
+    font-size: var(--fs-small);
+    font-weight: 600;
+    color: var(--text-primary);
+    font-family: var(--ff-display);
+}
+
+.target-bar__track {
+    width: 100%;
+    height: 6px;
+    background: var(--bg-elevated);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+}
+
+.target-bar__fill {
+    height: 100%;
+    border-radius: var(--radius-full);
+    transition: width var(--dur-slow) var(--ease-out-expo);
+}
+
+.target-bar__fill--protein {
+    background: linear-gradient(90deg, var(--protein), #ff6b35);
+}
+
+.target-bar__fill--carbs {
+    background: linear-gradient(90deg, var(--carbs), #ffcc33);
+}
+
+.target-bar__fill--fat {
+    background: linear-gradient(90deg, var(--fat), #a78bfa);
+}
+
+/* ---- Food List ---- */
+.nutrition__food-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-8);
+}
+
+.food-row {
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-glass);
+    background: var(--bg-card);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    overflow: hidden;
+    transition: border-color var(--dur-fast), box-shadow var(--dur-fast);
+}
+
+.food-row:hover {
+    border-color: var(--border-hover);
+}
+
+.food-row--active {
+    border-color: rgba(var(--accent-rgb), 0.35) !important;
+    box-shadow: 0 0 24px rgba(var(--accent-rgb), 0.06);
+}
+
+.food-row__main {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-16);
+    padding: var(--sp-16) var(--sp-24);
+    cursor: pointer;
+}
+
+.food-row__emoji {
+    font-size: 1.6rem;
+    flex-shrink: 0;
+}
+
+.food-row__info {
+    flex: 1;
+    min-width: 0;
+}
+
+.food-row__name {
+    display: block;
+    font-family: var(--ff-display);
+    font-size: var(--fs-body);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.food-row__serving {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+.food-row__quick-macros {
+    display: flex;
+    gap: var(--sp-8);
+    flex-shrink: 0;
+}
+
+.food-row__qm {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 2px var(--sp-8);
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.food-row__qm--protein {
+    color: var(--protein);
+}
+
+.food-row__qm--cal {
+    color: var(--text-muted);
+}
+
+.food-row__toggle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--border-glass);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--dur-fast);
+    flex-shrink: 0;
+}
+
+.food-row__toggle:hover {
+    border-color: var(--accent);
+    background: rgba(var(--accent-rgb), 0.1);
+}
+
+.food-row__toggle:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.food-row__plus {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--text-secondary);
+    transition: color var(--dur-fast), transform var(--dur-fast);
+}
+
+.food-row--active .food-row__plus {
+    color: var(--accent);
+    transform: rotate(45deg);
+}
+
+/* Expandable detail */
+.food-row__detail {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height var(--dur-med) var(--ease-out-expo), padding var(--dur-med);
+    padding: 0 var(--sp-24);
+}
+
+.food-row--active .food-row__detail {
+    max-height: 200px;
+    padding: 0 var(--sp-24) var(--sp-16);
+}
+
+.food-row__macro-bars {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sp-8);
+}
+
+.food-row__bar {
+    display: flex;
+    align-items: center;
+    gap: var(--sp-8);
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+.food-row__bar-fill {
+    height: 4px;
+    border-radius: var(--radius-full);
+    transition: width var(--dur-slow) var(--ease-out-expo);
+}
+
+.food-row__bar-fill--protein {
+    background: var(--protein);
+}
+
+.food-row__bar-fill--carbs {
+    background: var(--carbs);
+}
+
+.food-row__bar-fill--fat {
+    background: var(--fat);
+}
+
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+    padding: var(--sp-48) var(--sp-40);
+    background: var(--bg-base);
+    border-top: 1px solid var(--border-glass);
+    text-align: center;
+}
+
+.footer__brand {
+    font-family: var(--ff-display);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin-bottom: var(--sp-8);
+}
+
+.footer__copy {
+    font-size: var(--fs-small);
+    color: var(--text-muted);
+}
+
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 1200px) {
+    .musculature__model-anchor {
+        width: 35%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav__links {
+        display: none;
+    }
+
+    .hero__content {
+        padding: 0 var(--sp-16);
+    }
+
+    .musculature {
+        padding: var(--sp-80) var(--sp-24) var(--sp-64);
+    }
+
+    .musculature__model-anchor {
+        float: none;
+        position: relative;
+        top: auto;
+        width: 100%;
+        height: 40vh;
+        margin-right: 0;
+        margin-bottom: var(--sp-40);
+    }
+
+    .musculature__grid {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .nutrition {
+        padding: var(--sp-80) var(--sp-24) var(--sp-64);
+    }
+
+    .nutrition__dashboard {
+        grid-template-columns: 1fr;
+        gap: var(--sp-32);
+    }
+
+    .food-row__quick-macros {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        padding: var(--sp-16) var(--sp-16);
+    }
+
+    .hero__cta {
+        padding: var(--sp-16) var(--sp-32);
+    }
+
+    .muscle-card__inner {
+        padding: var(--sp-24);
+    }
+
+    .nutrition__chart-panel {
+        padding: var(--sp-24);
+    }
+
+    .nutrition__macro-legend {
+        flex-direction: column;
+        gap: var(--sp-8);
+    }
+}
+
+/* ============================================================
+   UTILITY / ANIMATION HELPERS
+   ============================================================ */
+.fade-in {
+    opacity: 0;
+    transform: translateY(32px);
+}

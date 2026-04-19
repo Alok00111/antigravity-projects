@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "cortisol-209b7",
+          "appId": "1:258870656316:android:ef5317cb3b33a9f0457239",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "cortisol-209b7",
+          "configurations": {
+            "android": "1:258870656316:android:ef5317cb3b33a9f0457239",
+            "ios": "1:258870656316:ios:8c691bdecfc7386a457239"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "asia-south1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "auth": {
+    "providers": {
+      "emailPassword": true,
+      "googleSignIn": {
+        "oAuthBrandDisplayName": "Cortisol Scanner",
+        "supportEmail": "alokshatma746@gmail.com"
+      }
+    }
+  }
+}

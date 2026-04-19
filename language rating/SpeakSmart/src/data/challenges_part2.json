@@ -1,0 +1,1202 @@
+[
+    {
+        "day": 51,
+        "topic": "Persuasive Speech on Exercise",
+        "duration": 60,
+        "warmup": {
+            "activity": "Power words: incredible, essential, transform, achieve, powerful",
+            "focus": "Persuasive vocabulary"
+        },
+        "vocabulary": [
+            "benefits",
+            "essential",
+            "transform",
+            "motivation",
+            "discipline",
+            "results"
+        ],
+        "sentences": [
+            "Exercise is essential for a healthy life.",
+            "The benefits are incredible.",
+            "It can transform your mood."
+        ],
+        "speakingPrompt": "Give a persuasive speech convincing someone to start exercising regularly.",
+        "fluencyDrill": "Deliver the speech with passion and conviction"
+    },
+    {
+        "day": 52,
+        "topic": "Tech Investment Ideas",
+        "duration": 60,
+        "warmup": {
+            "activity": "Investment words: potential, growth, risk, return, portfolio",
+            "focus": "Financial vocabulary"
+        },
+        "vocabulary": [
+            "innovation",
+            "potential",
+            "market",
+            "disruptive",
+            "growth",
+            "portfolio"
+        ],
+        "sentences": [
+            "This technology has huge potential.",
+            "The market is growing rapidly.",
+            "Consider the risk and reward."
+        ],
+        "speakingPrompt": "Present a technology you think is worth investing in and explain why.",
+        "fluencyDrill": "Pitch the investment as a TV business analyst"
+    },
+    {
+        "day": 53,
+        "topic": "Healthcare System",
+        "duration": 60,
+        "warmup": {
+            "activity": "Health words: access, affordable, coverage, insurance, treatment",
+            "focus": "Healthcare vocabulary"
+        },
+        "vocabulary": [
+            "access",
+            "affordable",
+            "coverage",
+            "prevention",
+            "treatment",
+            "system"
+        ],
+        "sentences": [
+            "Healthcare should be accessible to all.",
+            "The main challenges are...",
+            "Possible improvements include..."
+        ],
+        "speakingPrompt": "Discuss your country's healthcare system - strengths, weaknesses, and improvements.",
+        "fluencyDrill": "Present a healthcare reform proposal"
+    },
+    {
+        "day": 54,
+        "topic": "Cryptocurrency Explained",
+        "duration": 60,
+        "warmup": {
+            "activity": "Crypto words: blockchain, decentralized, mining, wallet, token",
+            "focus": "Crypto vocabulary"
+        },
+        "vocabulary": [
+            "blockchain",
+            "decentralized",
+            "volatile",
+            "transaction",
+            "mining",
+            "wallet"
+        ],
+        "sentences": [
+            "Cryptocurrency is a digital currency.",
+            "It uses blockchain technology.",
+            "The value can be volatile."
+        ],
+        "speakingPrompt": "Explain cryptocurrency to a beginner - what it is, how it works, pros and cons.",
+        "fluencyDrill": "Simplify complex concepts using analogies"
+    },
+    {
+        "day": 55,
+        "topic": "Climate Change Impact",
+        "duration": 60,
+        "warmup": {
+            "activity": "Climate words: emissions, warming, extreme, sustainable, carbon",
+            "focus": "Climate vocabulary"
+        },
+        "vocabulary": [
+            "emissions",
+            "warming",
+            "extreme weather",
+            "sustainable",
+            "carbon neutral",
+            "impact"
+        ],
+        "sentences": [
+            "Climate change affects everyone.",
+            "We're seeing more extreme weather.",
+            "Individual actions matter."
+        ],
+        "speakingPrompt": "Discuss the impact of climate change and what individuals can do about it.",
+        "fluencyDrill": "Deliver an urgent call-to-action speech"
+    },
+    {
+        "day": 56,
+        "topic": "Cultural Appreciation vs Appropriation",
+        "duration": 60,
+        "warmup": {
+            "activity": "Culture words: respect, borrow, honor, exploit, sensitivity",
+            "focus": "Cultural vocabulary"
+        },
+        "vocabulary": [
+            "respect",
+            "appreciation",
+            "appropriation",
+            "sensitivity",
+            "intention",
+            "context"
+        ],
+        "sentences": [
+            "There's a fine line between...",
+            "The key difference is intent.",
+            "It's important to be respectful."
+        ],
+        "speakingPrompt": "Discuss the difference between cultural appreciation and appropriation with examples.",
+        "fluencyDrill": "Present multiple perspectives on a controversial cultural example"
+    },
+    {
+        "day": 57,
+        "topic": "Political System Explained",
+        "duration": 60,
+        "warmup": {
+            "activity": "Political words: democracy, election, parliament, legislation, vote",
+            "focus": "Political vocabulary"
+        },
+        "vocabulary": [
+            "democracy",
+            "parliament",
+            "legislation",
+            "election",
+            "policy",
+            "governance"
+        ],
+        "sentences": [
+            "Our political system works by...",
+            "Elections are held every...",
+            "Citizens participate through..."
+        ],
+        "speakingPrompt": "Explain your country's political system to an international visitor.",
+        "fluencyDrill": "Explain without using political jargon"
+    },
+    {
+        "day": 58,
+        "topic": "Gig Economy Discussion",
+        "duration": 60,
+        "warmup": {
+            "activity": "Work words: freelance, contract, flexibility, security, platform",
+            "focus": "Employment vocabulary"
+        },
+        "vocabulary": [
+            "freelance",
+            "flexibility",
+            "gig",
+            "platform",
+            "independence",
+            "benefits"
+        ],
+        "sentences": [
+            "The gig economy offers flexibility.",
+            "However, there are drawbacks.",
+            "Workers face challenges like..."
+        ],
+        "speakingPrompt": "Discuss the pros and cons of the gig economy from worker and employer perspectives.",
+        "fluencyDrill": "Role-play as a gig worker explaining your career choice"
+    },
+    {
+        "day": 59,
+        "topic": "Transportation Innovation",
+        "duration": 60,
+        "warmup": {
+            "activity": "Transport words: electric, autonomous, sustainable, infrastructure, mobility",
+            "focus": "Transport vocabulary"
+        },
+        "vocabulary": [
+            "autonomous",
+            "electric",
+            "sustainable",
+            "infrastructure",
+            "mobility",
+            "innovation"
+        ],
+        "sentences": [
+            "Transportation is evolving rapidly.",
+            "Electric vehicles are becoming common.",
+            "The future might include..."
+        ],
+        "speakingPrompt": "Discuss innovations in transportation and how they'll change cities.",
+        "fluencyDrill": "Describe the transportation of 2050"
+    },
+    {
+        "day": 60,
+        "topic": "The Joy of Reading",
+        "duration": 60,
+        "warmup": {
+            "activity": "Reading words: immerse, imagination, knowledge, escape, discover",
+            "focus": "Reading vocabulary"
+        },
+        "vocabulary": [
+            "imagination",
+            "knowledge",
+            "perspective",
+            "escape",
+            "discover",
+            "recommendation"
+        ],
+        "sentences": [
+            "Reading expands your mind.",
+            "I love how books transport me.",
+            "Reading improves vocabulary and thinking."
+        ],
+        "speakingPrompt": "Talk about why reading is important and recommend books for different purposes.",
+        "fluencyDrill": "Give an enthusiastic book recommendation"
+    },
+    {
+        "day": 61,
+        "topic": "Traditional Crafts",
+        "duration": 60,
+        "warmup": {
+            "activity": "Craft words: handmade, artisan, heritage, technique, preserve",
+            "focus": "Craft vocabulary"
+        },
+        "vocabulary": [
+            "artisan",
+            "heritage",
+            "technique",
+            "handmade",
+            "preserve",
+            "tradition"
+        ],
+        "sentences": [
+            "This craft has been passed down for generations.",
+            "The technique requires skilled hands.",
+            "We must preserve these traditions."
+        ],
+        "speakingPrompt": "Describe a traditional craft from your culture - history, process, and importance.",
+        "fluencyDrill": "Teach the basics of the craft step by step"
+    },
+    {
+        "day": 62,
+        "topic": "Life-Changing Decision",
+        "duration": 60,
+        "warmup": {
+            "activity": "Decision words: turning point, consequence, risk, opportunity, leap",
+            "focus": "Decision vocabulary"
+        },
+        "vocabulary": [
+            "turning point",
+            "consequence",
+            "risk",
+            "opportunity",
+            "courage",
+            "regret"
+        ],
+        "sentences": [
+            "This decision changed my life.",
+            "I weighed the pros and cons.",
+            "Looking back, I'm glad I chose..."
+        ],
+        "speakingPrompt": "Describe a major life decision - factors considered, process, and outcome.",
+        "fluencyDrill": "Advise someone facing a similar decision"
+    },
+    {
+        "day": 63,
+        "topic": "Online Privacy",
+        "duration": 60,
+        "warmup": {
+            "activity": "Privacy words: data, security, encryption, tracking, consent",
+            "focus": "Privacy vocabulary"
+        },
+        "vocabulary": [
+            "data",
+            "security",
+            "encryption",
+            "tracking",
+            "consent",
+            "breach"
+        ],
+        "sentences": [
+            "Online privacy is increasingly important.",
+            "Companies collect vast amounts of data.",
+            "We can protect ourselves by..."
+        ],
+        "speakingPrompt": "Discuss online privacy concerns and how people can protect their personal information.",
+        "fluencyDrill": "Explain privacy settings to a tech-novice parent"
+    },
+    {
+        "day": 64,
+        "topic": "Urban vs Rural Living",
+        "duration": 60,
+        "warmup": {
+            "activity": "Living words: urban, rural, commute, community, pace",
+            "focus": "Lifestyle vocabulary"
+        },
+        "vocabulary": [
+            "urban",
+            "rural",
+            "commute",
+            "community",
+            "pace",
+            "amenities"
+        ],
+        "sentences": [
+            "City life offers many opportunities.",
+            "Rural areas provide peace and space.",
+            "The best choice depends on..."
+        ],
+        "speakingPrompt": "Compare urban and rural living - pros, cons, and which you prefer and why.",
+        "fluencyDrill": "Debate both sides with yourself"
+    },
+    {
+        "day": 65,
+        "topic": "Networking Importance",
+        "duration": 60,
+        "warmup": {
+            "activity": "Network words: connection, relationship, opportunity, referral, mentor",
+            "focus": "Professional vocabulary"
+        },
+        "vocabulary": [
+            "connection",
+            "opportunity",
+            "relationship",
+            "referral",
+            "mentor",
+            "collaborate"
+        ],
+        "sentences": [
+            "Networking opens doors to opportunities.",
+            "Building genuine relationships is key.",
+            "Effective networking involves..."
+        ],
+        "speakingPrompt": "Discuss why networking is valuable and share tips for effective networking.",
+        "fluencyDrill": "Role-play introducing yourself at a networking event"
+    },
+    {
+        "day": 66,
+        "topic": "Festival Description",
+        "duration": 60,
+        "warmup": {
+            "activity": "Festival words: celebration, tradition, decorations, gathering, joy",
+            "focus": "Celebration vocabulary"
+        },
+        "vocabulary": [
+            "celebration",
+            "tradition",
+            "gathering",
+            "decorations",
+            "ritual",
+            "festive"
+        ],
+        "sentences": [
+            "This festival celebrates...",
+            "Families gather to...",
+            "Traditional activities include..."
+        ],
+        "speakingPrompt": "Describe a cultural festival in detail - preparations, celebrations, and meaning.",
+        "fluencyDrill": "Create an immersive sensory description of being at the festival"
+    },
+    {
+        "day": 67,
+        "topic": "Future of Education",
+        "duration": 60,
+        "warmup": {
+            "activity": "EdTech words: online, virtual, personalized, interactive, accessible",
+            "focus": "Education vocabulary"
+        },
+        "vocabulary": [
+            "online learning",
+            "personalized",
+            "interactive",
+            "accessible",
+            "skills",
+            "lifelong"
+        ],
+        "sentences": [
+            "Education is transforming rapidly.",
+            "Technology enables new possibilities.",
+            "Students need different skills now."
+        ],
+        "speakingPrompt": "Discuss how education might change in the future and what skills will matter most.",
+        "fluencyDrill": "Design your ideal future classroom"
+    },
+    {
+        "day": 68,
+        "topic": "Financial Literacy",
+        "duration": 60,
+        "warmup": {
+            "activity": "Finance words: budget, savings, investment, compound, debt",
+            "focus": "Financial vocabulary"
+        },
+        "vocabulary": [
+            "budget",
+            "savings",
+            "investment",
+            "compound interest",
+            "debt",
+            "financial freedom"
+        ],
+        "sentences": [
+            "Financial literacy is essential.",
+            "Start saving early for compound growth.",
+            "Avoid high-interest debt."
+        ],
+        "speakingPrompt": "Share financial advice for young adults - budgeting, saving, and investing basics.",
+        "fluencyDrill": "Explain compound interest with a compelling example"
+    },
+    {
+        "day": 69,
+        "topic": "An Invention You Wish Existed",
+        "duration": 60,
+        "warmup": {
+            "activity": "Invention words: innovate, solve, design, prototype, revolutionary",
+            "focus": "Innovation vocabulary"
+        },
+        "vocabulary": [
+            "innovate",
+            "solve",
+            "design",
+            "revolutionary",
+            "prototype",
+            "functionality"
+        ],
+        "sentences": [
+            "I wish someone would invent...",
+            "It would solve the problem of...",
+            "The design would include..."
+        ],
+        "speakingPrompt": "Describe an invention you wish existed - what it does, how it works, and its impact.",
+        "fluencyDrill": "Pitch your invention to investors"
+    },
+    {
+        "day": 70,
+        "topic": "Volunteering Importance",
+        "duration": 60,
+        "warmup": {
+            "activity": "Volunteer words: give back, community, impact, fulfillment, cause",
+            "focus": "Service vocabulary"
+        },
+        "vocabulary": [
+            "give back",
+            "community",
+            "impact",
+            "fulfillment",
+            "cause",
+            "selfless"
+        ],
+        "sentences": [
+            "Volunteering benefits everyone.",
+            "I feel fulfilled when I help others.",
+            "Small actions can make big differences."
+        ],
+        "speakingPrompt": "Discuss the importance of volunteering and share personal experiences or goals.",
+        "fluencyDrill": "Recruit volunteers for a cause you care about"
+    },
+    {
+        "day": 71,
+        "topic": "Gender Equality",
+        "duration": 60,
+        "warmup": {
+            "activity": "Equality words: equity, opportunity, rights, representation, progress",
+            "focus": "Social vocabulary"
+        },
+        "vocabulary": [
+            "equity",
+            "opportunity",
+            "representation",
+            "progress",
+            "barrier",
+            "advocate"
+        ],
+        "sentences": [
+            "Gender equality benefits society.",
+            "Progress has been made, but challenges remain.",
+            "We can promote equality by..."
+        ],
+        "speakingPrompt": "Discuss the state of gender equality - achievements, remaining challenges, and solutions.",
+        "fluencyDrill": "Deliver an inspiring speech for International Women's Day"
+    },
+    {
+        "day": 72,
+        "topic": "Problem-Solving Approach",
+        "duration": 60,
+        "warmup": {
+            "activity": "Problem words: analyze, solution, approach, creative, systematic",
+            "focus": "Analytical vocabulary"
+        },
+        "vocabulary": [
+            "analyze",
+            "solution",
+            "systematic",
+            "creative",
+            "brainstorm",
+            "implement"
+        ],
+        "sentences": [
+            "When facing a problem, I first...",
+            "I consider multiple solutions.",
+            "The key is to remain calm and think clearly."
+        ],
+        "speakingPrompt": "Describe your problem-solving approach with a real example of a problem you solved.",
+        "fluencyDrill": "Walk through solving a hypothetical problem out loud"
+    },
+    {
+        "day": 73,
+        "topic": "Space Exploration",
+        "duration": 60,
+        "warmup": {
+            "activity": "Space words: orbit, mission, astronaut, galaxy, discovery",
+            "focus": "Space vocabulary"
+        },
+        "vocabulary": [
+            "orbit",
+            "mission",
+            "astronaut",
+            "exploration",
+            "discovery",
+            "frontier"
+        ],
+        "sentences": [
+            "Space exploration pushes boundaries.",
+            "Recent achievements include...",
+            "The next frontier is..."
+        ],
+        "speakingPrompt": "Discuss space exploration - recent achievements, future goals, and why it matters.",
+        "fluencyDrill": "Narrate a documentary about Mars colonization"
+    },
+    {
+        "day": 74,
+        "topic": "Minimalism Lifestyle",
+        "duration": 60,
+        "warmup": {
+            "activity": "Minimalism words: simplify, declutter, essential, intentional, less",
+            "focus": "Lifestyle vocabulary"
+        },
+        "vocabulary": [
+            "simplify",
+            "declutter",
+            "intentional",
+            "essential",
+            "freedom",
+            "peace"
+        ],
+        "sentences": [
+            "Minimalism is about keeping what matters.",
+            "Less can actually mean more.",
+            "I've simplified my life by..."
+        ],
+        "speakingPrompt": "Explain minimalism - philosophy, benefits, and practical tips for adopting it.",
+        "fluencyDrill": "Convince a materialistic friend to try minimalism"
+    },
+    {
+        "day": 75,
+        "topic": "Sustainable Living",
+        "duration": 60,
+        "warmup": {
+            "activity": "Sustainability words: eco-friendly, reduce, reuse, conscious, footprint",
+            "focus": "Environmental vocabulary"
+        },
+        "vocabulary": [
+            "eco-friendly",
+            "reduce",
+            "conscious",
+            "footprint",
+            "sustainable",
+            "renewable"
+        ],
+        "sentences": [
+            "Living sustainably means...",
+            "Small changes include...",
+            "The biggest impact comes from..."
+        ],
+        "speakingPrompt": "Describe sustainable living practices and how you incorporate them in daily life.",
+        "fluencyDrill": "Create a 30-day sustainability challenge"
+    },
+    {
+        "day": 76,
+        "topic": "Role of Government",
+        "duration": 60,
+        "warmup": {
+            "activity": "Government words: policy, regulation, service, accountability, citizen",
+            "focus": "Civic vocabulary"
+        },
+        "vocabulary": [
+            "policy",
+            "regulation",
+            "service",
+            "accountability",
+            "welfare",
+            "infrastructure"
+        ],
+        "sentences": [
+            "Government's main role is...",
+            "Services provided include...",
+            "Citizens should participate by..."
+        ],
+        "speakingPrompt": "Discuss the ideal role of government - responsibilities, limits, and citizen participation.",
+        "fluencyDrill": "Debate a current government policy"
+    },
+    {
+        "day": 77,
+        "topic": "Cultural Preservation",
+        "duration": 60,
+        "warmup": {
+            "activity": "Heritage words: preserve, heritage, tradition, identity, legacy",
+            "focus": "Cultural vocabulary"
+        },
+        "vocabulary": [
+            "preserve",
+            "heritage",
+            "identity",
+            "legacy",
+            "endangered",
+            "revive"
+        ],
+        "sentences": [
+            "Preserving culture maintains our identity.",
+            "Traditions are being lost due to...",
+            "We can preserve culture by..."
+        ],
+        "speakingPrompt": "Discuss why cultural preservation matters and what's being done or should be done.",
+        "fluencyDrill": "Advocate for preserving a specific tradition"
+    },
+    {
+        "day": 78,
+        "topic": "A Philosophical Question",
+        "duration": 60,
+        "warmup": {
+            "activity": "Philosophy words: meaning, purpose, existence, ethics, truth",
+            "focus": "Philosophical vocabulary"
+        },
+        "vocabulary": [
+            "meaning",
+            "purpose",
+            "existence",
+            "perspective",
+            "truth",
+            "fundamental"
+        ],
+        "sentences": [
+            "This question makes us think about...",
+            "Different perspectives suggest...",
+            "My view is that..."
+        ],
+        "speakingPrompt": "Choose a philosophical question and explore different viewpoints on it.",
+        "fluencyDrill": "Think out loud as you work through the question"
+    },
+    {
+        "day": 79,
+        "topic": "Advertising Impact",
+        "duration": 60,
+        "warmup": {
+            "activity": "Advertising words: persuade, target, campaign, influence, consumer",
+            "focus": "Marketing vocabulary"
+        },
+        "vocabulary": [
+            "persuade",
+            "target",
+            "campaign",
+            "influence",
+            "consumer",
+            "brand"
+        ],
+        "sentences": [
+            "Advertising shapes our desires.",
+            "Effective ads use psychology to...",
+            "We should be aware of..."
+        ],
+        "speakingPrompt": "Discuss how advertising influences society - positively and negatively.",
+        "fluencyDrill": "Create and present a 30-second ad for an imaginary product"
+    },
+    {
+        "day": 80,
+        "topic": "Future of Food",
+        "duration": 60,
+        "warmup": {
+            "activity": "Food words: sustainable, lab-grown, organic, innovation, nutrition",
+            "focus": "Food vocabulary"
+        },
+        "vocabulary": [
+            "sustainable",
+            "lab-grown",
+            "organic",
+            "innovation",
+            "nutrition",
+            "alternative"
+        ],
+        "sentences": [
+            "Food production must become sustainable.",
+            "Alternative proteins include...",
+            "The future might bring..."
+        ],
+        "speakingPrompt": "Discuss food innovations and how we might eat differently in the future.",
+        "fluencyDrill": "Review a futuristic restaurant menu"
+    },
+    {
+        "day": 81,
+        "topic": "Sleep Importance",
+        "duration": 60,
+        "warmup": {
+            "activity": "Sleep words: rest, regenerate, cycle, quality, routine",
+            "focus": "Health vocabulary"
+        },
+        "vocabulary": [
+            "regenerate",
+            "cycle",
+            "quality",
+            "routine",
+            "deprivation",
+            "performance"
+        ],
+        "sentences": [
+            "Quality sleep is vital for health.",
+            "Adults need 7-9 hours typically.",
+            "Good sleep habits include..."
+        ],
+        "speakingPrompt": "Discuss why sleep matters and share tips for better sleep quality.",
+        "fluencyDrill": "Create a bedtime routine guide"
+    },
+    {
+        "day": 82,
+        "topic": "Personal Growth Moment",
+        "duration": 60,
+        "warmup": {
+            "activity": "Growth words: transform, realize, overcome, evolve, breakthrough",
+            "focus": "Personal development vocabulary"
+        },
+        "vocabulary": [
+            "transform",
+            "realize",
+            "overcome",
+            "evolve",
+            "breakthrough",
+            "self-awareness"
+        ],
+        "sentences": [
+            "This moment changed me because...",
+            "I realized that...",
+            "I grew by learning to..."
+        ],
+        "speakingPrompt": "Share a moment of personal growth - what happened and how you changed.",
+        "fluencyDrill": "Tell the story with emotional depth"
+    },
+    {
+        "day": 83,
+        "topic": "Travel Value",
+        "duration": 60,
+        "warmup": {
+            "activity": "Travel words: explore, discover, immerse, adventure, perspective",
+            "focus": "Travel vocabulary"
+        },
+        "vocabulary": [
+            "explore",
+            "discover",
+            "immerse",
+            "perspective",
+            "adventure",
+            "cultural"
+        ],
+        "sentences": [
+            "Travel broadens the mind.",
+            "My most memorable trip taught me...",
+            "Every journey offers lessons."
+        ],
+        "speakingPrompt": "Discuss the value of travel beyond tourism - growth, learning, and perspectives gained.",
+        "fluencyDrill": "Describe your most transformative travel experience"
+    },
+    {
+        "day": 84,
+        "topic": "Sharing Economy",
+        "duration": 60,
+        "warmup": {
+            "activity": "Sharing words: access, platform, peer-to-peer, collaborative, rent",
+            "focus": "Economy vocabulary"
+        },
+        "vocabulary": [
+            "access",
+            "platform",
+            "peer-to-peer",
+            "collaborative",
+            "ownership",
+            "convenience"
+        ],
+        "sentences": [
+            "The sharing economy changes how we consume.",
+            "Examples include Uber and Airbnb.",
+            "Benefits and concerns include..."
+        ],
+        "speakingPrompt": "Explain the sharing economy - examples, benefits, challenges, and future.",
+        "fluencyDrill": "Pitch a new sharing economy startup idea"
+    },
+    {
+        "day": 85,
+        "topic": "Generational Differences",
+        "duration": 60,
+        "warmup": {
+            "activity": "Generation words: boomer, millennial, GenZ, values, perspective",
+            "focus": "Social vocabulary"
+        },
+        "vocabulary": [
+            "generation",
+            "values",
+            "perspective",
+            "technology",
+            "experience",
+            "bridge"
+        ],
+        "sentences": [
+            "Each generation has unique experiences.",
+            "Differences stem from...",
+            "We can bridge gaps by..."
+        ],
+        "speakingPrompt": "Discuss generational differences - key characteristics, causes, and finding common ground.",
+        "fluencyDrill": "Explain your generation to someone from another generation"
+    },
+    {
+        "day": 86,
+        "topic": "Media's Role",
+        "duration": 60,
+        "warmup": {
+            "activity": "Media words: journalism, coverage, bias, inform, influence",
+            "focus": "Media vocabulary"
+        },
+        "vocabulary": [
+            "journalism",
+            "coverage",
+            "bias",
+            "inform",
+            "accountability",
+            "platform"
+        ],
+        "sentences": [
+            "Media shapes public opinion.",
+            "Responsible journalism involves...",
+            "We should consume media critically."
+        ],
+        "speakingPrompt": "Discuss the role of media in society - informing, entertaining, and potential pitfalls.",
+        "fluencyDrill": "Analyze a news story for potential bias"
+    },
+    {
+        "day": 87,
+        "topic": "Personal Branding",
+        "duration": 60,
+        "warmup": {
+            "activity": "Brand words: authentic, reputation, presence, value, distinguish",
+            "focus": "Professional vocabulary"
+        },
+        "vocabulary": [
+            "authentic",
+            "reputation",
+            "presence",
+            "distinguish",
+            "value proposition",
+            "visibility"
+        ],
+        "sentences": [
+            "Personal branding is about authenticity.",
+            "Your online presence matters.",
+            "Building a brand involves..."
+        ],
+        "speakingPrompt": "Discuss personal branding - importance, components, and how to build one effectively.",
+        "fluencyDrill": "Create your personal brand elevator pitch"
+    },
+    {
+        "day": 88,
+        "topic": "Stress Management",
+        "duration": 60,
+        "warmup": {
+            "activity": "Calm words: breathe, relax, mindful, cope, balance",
+            "focus": "Wellness vocabulary"
+        },
+        "vocabulary": [
+            "breathe",
+            "relax",
+            "mindful",
+            "cope",
+            "balance",
+            "resilience"
+        ],
+        "sentences": [
+            "Everyone experiences stress.",
+            "Healthy coping mechanisms include...",
+            "It's important to recognize signs of..."
+        ],
+        "speakingPrompt": "Discuss stress - causes, signs, and effective management techniques.",
+        "fluencyDrill": "Guide someone through a calming exercise"
+    },
+    {
+        "day": 89,
+        "topic": "Future Cities",
+        "duration": 60,
+        "warmup": {
+            "activity": "Urban words: smart, infrastructure, sustainable, livable, connected",
+            "focus": "Urban vocabulary"
+        },
+        "vocabulary": [
+            "smart city",
+            "infrastructure",
+            "sustainable",
+            "livable",
+            "integrated",
+            "technology"
+        ],
+        "sentences": [
+            "Cities are becoming smarter.",
+            "Future urban design will prioritize...",
+            "Challenges to address include..."
+        ],
+        "speakingPrompt": "Describe your vision of the ideal future city - design, technology, and lifestyle.",
+        "fluencyDrill": "Give a tour of your imagined future city"
+    },
+    {
+        "day": 90,
+        "topic": "Animal Testing Ethics",
+        "duration": 60,
+        "warmup": {
+            "activity": "Ethics words: moral, alternative, suffering, necessity, research",
+            "focus": "Ethical vocabulary"
+        },
+        "vocabulary": [
+            "moral",
+            "alternative",
+            "suffering",
+            "research",
+            "regulation",
+            "debate"
+        ],
+        "sentences": [
+            "This is a complex ethical issue.",
+            "Arguments for include...",
+            "Arguments against include..."
+        ],
+        "speakingPrompt": "Present both sides of the animal testing debate with empathy and logic.",
+        "fluencyDrill": "Argue each side convincingly"
+    },
+    {
+        "day": 91,
+        "topic": "Power of Habits",
+        "duration": 60,
+        "warmup": {
+            "activity": "Habit words: routine, trigger, reward, consistent, automatic",
+            "focus": "Behavioral vocabulary"
+        },
+        "vocabulary": [
+            "routine",
+            "trigger",
+            "reward",
+            "consistent",
+            "automatic",
+            "willpower"
+        ],
+        "sentences": [
+            "Habits shape our lives.",
+            "Good habits are formed by...",
+            "Breaking bad habits requires..."
+        ],
+        "speakingPrompt": "Discuss how habits work and share strategies for building good ones.",
+        "fluencyDrill": "Design a habit-building plan for a specific goal"
+    },
+    {
+        "day": 92,
+        "topic": "An Act of Kindness",
+        "duration": 60,
+        "warmup": {
+            "activity": "Kindness words: generous, compassion, thoughtful, selfless, impact",
+            "focus": "Positive vocabulary"
+        },
+        "vocabulary": [
+            "generous",
+            "compassion",
+            "thoughtful",
+            "selfless",
+            "impact",
+            "gratitude"
+        ],
+        "sentences": [
+            "This kind act touched me deeply.",
+            "Small gestures can have big impacts.",
+            "Kindness creates ripple effects."
+        ],
+        "speakingPrompt": "Describe an act of kindness you witnessed or performed and its impact.",
+        "fluencyDrill": "Tell the story with warmth and emotion"
+    },
+    {
+        "day": 93,
+        "topic": "Creativity Importance",
+        "duration": 60,
+        "warmup": {
+            "activity": "Creative words: imagine, innovate, original, expression, inspire",
+            "focus": "Creative vocabulary"
+        },
+        "vocabulary": [
+            "imagine",
+            "innovate",
+            "original",
+            "expression",
+            "inspire",
+            "thinking"
+        ],
+        "sentences": [
+            "Creativity is essential in every field.",
+            "It can be nurtured by...",
+            "Creative thinking involves..."
+        ],
+        "speakingPrompt": "Discuss why creativity matters and how to cultivate it in daily life.",
+        "fluencyDrill": "Brainstorm creative solutions to a common problem"
+    },
+    {
+        "day": 94,
+        "topic": "Cultural Taboos",
+        "duration": 60,
+        "warmup": {
+            "activity": "Social words: forbidden, norm, acceptable, sensitive, tradition",
+            "focus": "Social vocabulary"
+        },
+        "vocabulary": [
+            "forbidden",
+            "norm",
+            "sensitive",
+            "tradition",
+            "perspective",
+            "evolve"
+        ],
+        "sentences": [
+            "Every culture has taboos.",
+            "These exist because...",
+            "Attitudes are changing toward..."
+        ],
+        "speakingPrompt": "Discuss cultural taboos - examples, origins, and how perceptions evolve.",
+        "fluencyDrill": "Navigate explaining a sensitive cultural topic diplomatically"
+    },
+    {
+        "day": 95,
+        "topic": "Your Personal Values",
+        "duration": 60,
+        "warmup": {
+            "activity": "Values words: integrity, honesty, loyalty, courage, respect",
+            "focus": "Values vocabulary"
+        },
+        "vocabulary": [
+            "integrity",
+            "honesty",
+            "loyalty",
+            "courage",
+            "respect",
+            "principle"
+        ],
+        "sentences": [
+            "My core values are...",
+            "I developed these values through...",
+            "They guide my decisions by..."
+        ],
+        "speakingPrompt": "Describe your personal values - what they are, how they developed, and why they matter.",
+        "fluencyDrill": "Explain how a value guided a difficult decision"
+    },
+    {
+        "day": 96,
+        "topic": "Your Vision of the Future",
+        "duration": 60,
+        "warmup": {
+            "activity": "Vision words: aspire, imagine, achieve, legacy, hope",
+            "focus": "Aspirational vocabulary"
+        },
+        "vocabulary": [
+            "aspire",
+            "vision",
+            "achieve",
+            "legacy",
+            "hope",
+            "contribute"
+        ],
+        "sentences": [
+            "I envision a future where...",
+            "My personal goals include...",
+            "I hope to contribute by..."
+        ],
+        "speakingPrompt": "Share your vision for your personal future and the world you hope to see.",
+        "fluencyDrill": "Deliver an inspiring vision speech"
+    },
+    {
+        "day": 97,
+        "topic": "A TED Talk Summary",
+        "duration": 60,
+        "warmup": {
+            "activity": "Presentation words: insight, compelling, message, takeaway, audience",
+            "focus": "Presentation vocabulary"
+        },
+        "vocabulary": [
+            "insight",
+            "compelling",
+            "message",
+            "takeaway",
+            "inspire",
+            "perspective"
+        ],
+        "sentences": [
+            "The main idea was...",
+            "What struck me most was...",
+            "The key takeaway is..."
+        ],
+        "speakingPrompt": "Summarize a TED talk you've watched - key ideas, why it resonated, and your thoughts.",
+        "fluencyDrill": "Present the core message in your own words"
+    },
+    {
+        "day": 98,
+        "topic": "Your Legacy",
+        "duration": 60,
+        "warmup": {
+            "activity": "Legacy words: remember, impact, contribution, lasting, meaningful",
+            "focus": "Reflective vocabulary"
+        },
+        "vocabulary": [
+            "remember",
+            "impact",
+            "contribution",
+            "lasting",
+            "meaningful",
+            "inspire"
+        ],
+        "sentences": [
+            "I want to be remembered for...",
+            "My contribution will be...",
+            "A meaningful life means..."
+        ],
+        "speakingPrompt": "Describe the legacy you want to leave - impact on family, community, and world.",
+        "fluencyDrill": "Write and deliver your own tribute speech"
+    },
+    {
+        "day": 99,
+        "topic": "Language Learning Advice",
+        "duration": 60,
+        "warmup": {
+            "activity": "Learning words: practice, immerse, patience, progress, fluency",
+            "focus": "Learning vocabulary"
+        },
+        "vocabulary": [
+            "practice",
+            "immerse",
+            "patience",
+            "progress",
+            "fluency",
+            "consistency"
+        ],
+        "sentences": [
+            "Learning a language requires dedication.",
+            "The best strategies include...",
+            "Don't be afraid to make mistakes."
+        ],
+        "speakingPrompt": "Share advice for language learners based on your journey - challenges and strategies.",
+        "fluencyDrill": "Motivate a struggling language learner"
+    },
+    {
+        "day": 100,
+        "topic": "100-Day Journey Reflection",
+        "duration": 60,
+        "warmup": {
+            "activity": "Achievement words: accomplished, growth, proud, persevered, milestone",
+            "focus": "Celebration vocabulary"
+        },
+        "vocabulary": [
+            "accomplished",
+            "growth",
+            "milestone",
+            "persevered",
+            "proud",
+            "continue"
+        ],
+        "sentences": [
+            "I can't believe I completed 100 days!",
+            "My biggest improvement has been...",
+            "I will continue by..."
+        ],
+        "speakingPrompt": "Reflect on your entire 100-day journey - growth, favorite moments, challenges, and next steps.",
+        "fluencyDrill": "Deliver a 5-minute graduation speech celebrating your achievement"
+    }
+]

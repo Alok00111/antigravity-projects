@@ -1,0 +1,140 @@
+{
+  "levels": [
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["cyan", "magenta", "cyan", "magenta"],
+        ["magenta", "cyan", "magenta", "cyan"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["cyan", "lime", "magenta", "cyan"],
+        ["magenta", "cyan", "lime", "magenta"],
+        ["lime", "magenta", "cyan", "lime"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["amber", "cyan", "lime", "amber"],
+        ["lime", "amber", "cyan", "lime"],
+        ["cyan", "lime", "amber", "cyan"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["blue", "coral", "cyan", "blue"],
+        ["cyan", "blue", "coral", "cyan"],
+        ["coral", "cyan", "blue", "coral"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["purple", "lime", "amber", "purple"],
+        ["amber", "purple", "lime", "amber"],
+        ["lime", "amber", "purple", "lime"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["cyan", "magenta", "lime", "amber"],
+        ["amber", "cyan", "magenta", "lime"],
+        ["lime", "amber", "cyan", "magenta"],
+        ["magenta", "lime", "amber", "cyan"],
+        [],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["blue", "coral", "purple", "blue"],
+        ["purple", "blue", "coral", "purple"],
+        ["coral", "purple", "blue", "coral"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["pink", "teal", "orange", "pink"],
+        ["orange", "pink", "teal", "orange"],
+        ["teal", "orange", "pink", "teal"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["cyan", "blue", "lime", "cyan"],
+        ["lime", "cyan", "blue", "lime"],
+        ["blue", "lime", "cyan", "blue"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["magenta", "amber", "coral", "magenta"],
+        ["coral", "magenta", "amber", "coral"],
+        ["amber", "coral", "magenta", "amber"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["cyan", "purple", "lime", "cyan"],
+        ["lime", "cyan", "purple", "lime"],
+        ["purple", "lime", "cyan", "purple"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["pink", "orange", "blue", "pink"],
+        ["blue", "pink", "orange", "blue"],
+        ["orange", "blue", "pink", "orange"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["teal", "coral", "amber", "teal"],
+        ["amber", "teal", "coral", "amber"],
+        ["coral", "amber", "teal", "coral"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["magenta", "cyan", "blue", "magenta"],
+        ["blue", "magenta", "cyan", "blue"],
+        ["cyan", "blue", "magenta", "cyan"],
+        []
+      ]
+    },
+    {
+      "difficulty": "easy",
+      "tubes": [
+        ["lime", "purple", "pink", "lime"],
+        ["pink", "lime", "purple", "pink"],
+        ["purple", "pink", "lime", "purple"],
+        []
+      ]
+    }
+  ]
+}

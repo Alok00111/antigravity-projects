@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Slide in the Box — push everyone off the shrinking platform. Last one standing wins." />
+    <title>Slide in the Box</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+
+    <!-- ══ TITLE SCREEN ══════════════════════════════════ -->
+    <div id="page-home" class="page active">
+      <div class="home-bg-dots"></div>
+      <div class="home-center">
+        <div class="home-logo-wrap">
+          <div class="home-logo-icon">
+            <div class="logo-box"></div>
+            <div class="logo-dot d1"></div>
+            <div class="logo-dot d2"></div>
+          </div>
+          <div class="home-logo-text">
+            <span class="logo-title">Slide in<br/>the Box</span>
+            <span class="logo-tagline">Push everyone off. Last one standing wins.</span>
+          </div>
+        </div>
+
+        <div id="challengePill" class="challenge-pill">
+          <span id="challengeText">Daily Challenge: Win 2 matches</span>
+        </div>
+
+        <div class="home-card">
+          <div class="form-group">
+            <label class="form-label">Your name</label>
+            <input id="nameInput" class="game-input" type="text" placeholder="Enter name…" maxlength="16" autocomplete="off" />
+          </div>
+
+          <!-- Character Picker -->
+          <div class="form-group">
+            <div class="avatar-editor">
+              <div class="builder-col left-arrows">
+                <button type="button" class="arrow-btn" id="prevAvatar">◄</button>
+              </div>
+              <div class="avatar-preview-box">
+                <canvas id="avatarCanvas" width="96" height="96"></canvas>
+              </div>
+              <div class="builder-col right-arrows">
+                <button type="button" class="arrow-btn" id="nextAvatar">►</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="home-actions">
+            <!-- Quick Play: Matchmaking -->
+            <button id="btnQuickPlay" class="btn btn-primary wide">
+              <span class="btn-icon">⚡</span>
+              Quick Play
+            </button>
+
+            <!-- Create Room: Private lobby -->
+            <button id="btnCreateRoom" class="btn btn-secondary wide">
+              <span class="btn-icon">🏠</span>
+              Create Private
+            </button>
+          </div>
+
+          <div class="divider"><span>or join by code</span></div>
+
+          <div class="join-row">
+            <input id="codeInput" class="game-input game-input-mono" type="text" placeholder="ROOM CODE" maxlength="4" autocomplete="off" />
+            <button id="btnJoinCode" class="btn btn-ghost">Join</button>
+          </div>
+
+          <p id="homeError" class="home-error hidden"></p>
+        </div>
+
+        <p class="home-footer-text">Up to 6 players · Platform shrinks every round · WEGO rules</p>
+      </div>
+    </div>
+
+    <!-- ══ LOBBY ═════════════════════════════════════════ -->
+    <div id="page-lobby" class="page hidden">
+      <div class="lobby-layout">
+
+        <div class="lobby-top">
+          <button id="btnLeave" class="btn-back">← Back</button>
+          <div class="room-pill">
+            <span class="room-pill-label">ROOM</span>
+            <span id="roomCodeDisplay" class="room-pill-code">····</span>
+          </div>
+          <button id="btnCopyCode" class="btn-copy">Share 🔗</button>
+        </div>
+
+        <div class="lobby-body">
+          <h2 class="lobby-heading">Waiting room</h2>
+          <p id="lobbySubtitle" class="lobby-sub">Need at least 2 players</p>
+
+          <div id="lobbyPlayerList" class="lobby-slots"></div>
+        </div>
+
+        <div class="lobby-bottom">
+          <button id="readyButton" class="btn btn-primary wide" disabled>Ready Up</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ══ GAME ══════════════════════════════════════════ -->
+    <div id="page-game" class="page hidden">
+      <canvas id="gameCanvas"></canvas>
+
+
+      <!-- HUD: top-center timer block -->
+      <div id="hudTimerBlock" class="hud-timer-block">
+        <div id="hudPhaseLabel" class="hud-phase">PLANNING</div>
+        <div id="hudTimer" class="hud-timer-num">12</div>
+        <div class="hud-timer-sub">seconds</div>
+      </div>
+
+      <!-- HUD: right scoreboard -->
+      <div id="hudScoreboard" class="hud-scoreboard"></div>
+
+      <!-- HUD: bottom status -->
+      <div id="hudStatus" class="hud-status-bar">
+        <div id="hudMoveStatus" class="hud-move-confirm hidden">
+          <span class="confirm-pip"></span>Move set — drag to change
+        </div>
+        <div id="hudDragHint" class="hud-drag-hint">Drag from your ball to aim</div>
+      </div>
+
+      <!-- Gear / Settings button -->
+      <button id="btnSettings" class="hud-settings-btn" title="Settings">⚙</button>
+      <div id="emoteBar" class="emote-bar">
+        <button data-emote="🔥">🔥</button>
+        <button data-emote="😈">😈</button>
+        <button data-emote="😂">😂</button>
+        <button data-emote="👏">👏</button>
+      </div>
+
+      <!-- Elimination toast -->
+      <div id="toastEl" class="game-toast hidden"></div>
+      <div id="hypeEl" class="hype-el hidden"></div>
+    </div>
+
+    <!-- ══ SETTINGS PANEL ══════════════════════════════════════ -->
+    <div id="settingsPanel" class="settings-panel hidden">
+      <div class="settings-backdrop"></div>
+
+      <div class="settings-card">
+        <div class="settings-header">
+          <h2 class="settings-title">⚙ Game Settings</h2>
+          <button id="btnCloseSettings" class="settings-close-btn" title="Close">✕</button>
+        </div>
+
+        <!-- Resume countdown shown while closing -->
+        <div id="resumeCountdown" class="resume-countdown hidden">
+          <div id="resumeTimer" class="resume-timer">3</div>
+          <div class="resume-label">Resuming in…</div>
+        </div>
+
+        <!-- Settings items -->
+        <div class="settings-grid" id="settingsGrid">
+
+          <!-- Bot Difficulty -->
+          <div class="settings-item" id="botDiffSetting">
+            <div class="settings-item-header">
+              <span class="settings-item-icon">🤖</span>
+              <div class="settings-item-info">
+                <div class="settings-item-label">Bot Difficulty</div>
+                <div class="settings-item-desc">How hard the bots play</div>
+              </div>
+            </div>
+            <div class="settings-chips" id="diffChips">
+              <button class="chip" data-val="easy">Easy</button>
+              <button class="chip active" data-val="medium">Medium</button>
+              <button class="chip" data-val="hard">Hard</button>
+            </div>
+          </div>
+
+          <!-- SFX Volume -->
+          <div class="settings-item">
+            <div class="settings-item-header">
+              <span class="settings-item-icon">🔊</span>
+              <div class="settings-item-info">
+                <div class="settings-item-label">Sound Effects</div>
+                <div class="settings-item-desc">Game actions & hits</div>
+              </div>
+            </div>
+            <input type="range" id="sfxVolumeSlider" class="settings-slider" min="0" max="1" step="0.05" value="0.5" />
+          </div>
+
+          <!-- Music Volume -->
+          <div class="settings-item">
+            <div class="settings-item-header">
+              <span class="settings-item-icon">🎵</span>
+              <div class="settings-item-info">
+                <div class="settings-item-label">Music</div>
+                <div class="settings-item-desc">Background music</div>
+              </div>
+            </div>
+            <input type="range" id="musicVolumeSlider" class="settings-slider" min="0" max="1" step="0.05" value="0.2" />
+          </div>
+
+        </div><!-- /settings-grid -->
+      </div><!-- /settings-card -->
+    </div><!-- /settingsPanel -->
+
+    <!-- ══ GAME OVER ══════════════════════════════════════ -->
+    <div id="page-gameover" class="page hidden">
+      <div class="gameover-scene">
+        <canvas id="gameoverCanvas"></canvas>
+        <div class="gameover-content">
+          <p class="gameover-eyebrow">GAME OVER</p>
+          <h2 id="gameoverTitle" class="gameover-title">Player wins!</h2>
+          <div id="gameoverBall" class="gameover-ball"></div>
+          <p id="gameoverSub" class="gameover-sub">Everyone else fell off the platform.</p>
+          <div id="mvpBadges" class="mvp-badges"></div>
+          
+          <!-- Leaderboard List -->
+          <div id="gameoverRankings" class="gameover-rankings"></div>
+
+          <div class="gameover-btns">
+            <button id="btnPlayAgain" class="btn btn-primary wide">Play Again</button>
+            <button id="btnGoHome" class="btn btn-ghost wide">Main Menu</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

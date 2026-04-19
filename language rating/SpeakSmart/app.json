@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "SpeakSmart",
+    "slug": "SpeakSmart",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF6B35"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.speaksmart.app",
+      "infoPlist": {
+        "NSSpeechRecognitionUsageDescription": "SpeakSmart needs access to speech recognition to analyze your pronunciation and provide feedback.",
+        "NSMicrophoneUsageDescription": "SpeakSmart needs microphone access to record your speech for language practice."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FF6B35"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.speaksmart.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "@react-native-voice/voice",
+        {
+          "microphonePermission": "SpeakSmart needs microphone access to record your speech for language practice.",
+          "speechRecognitionPermission": "SpeakSmart needs speech recognition to analyze your pronunciation."
+        }
+      ]
+    ]
+  }
+}

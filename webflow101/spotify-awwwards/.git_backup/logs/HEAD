@@ -1,0 +1,38 @@
+0000000000000000000000000000000000000000 72ed0bee7e262270efc281c9c05ce585d086dbfe Alok <alok4709s@gmail.com> 1773675423 +0530	commit (initial): Initial commit from Create Next App
+72ed0bee7e262270efc281c9c05ce585d086dbfe f0803e3f784f40df14fade4d0bd9802f46246efa Alok <alok4709s@gmail.com> 1773675676 +0530	commit: feat: initial commit
+f0803e3f784f40df14fade4d0bd9802f46246efa c157ff20aba38f667415b014bc71f547c9ed8694 Alok <alok4709s@gmail.com> 1773846575 +0530	commit: feat: complete Spotify Web Playback SDK integration
+c157ff20aba38f667415b014bc71f547c9ed8694 225112284a8501a0dd15e40b8ec5c844f2a59b81 Alok <alok4709s@gmail.com> 1773856841 +0530	commit: fix: dynamic Spotify API fetch, fix player playback, add back button
+225112284a8501a0dd15e40b8ec5c844f2a59b81 9d1b04a71001bc511c4d92e8e083777db4ed61fe Alok <alok4709s@gmail.com> 1773857338 +0530	commit: fix: add force-dynamic to homepage to fix Vercel build error
+9d1b04a71001bc511c4d92e8e083777db4ed61fe 98b1a982f35861229d81bd6547c47a5fa63941fd Alok <alok4709s@gmail.com> 1773857875 +0530	commit: fix: rewrite Spotify API to use Search endpoints (fixes 404/403 on editorial playlists)
+98b1a982f35861229d81bd6547c47a5fa63941fd db357dbcf827de44b277bb6caafd6ae35fa2025a Alok <alok4709s@gmail.com> 1773859157 +0530	commit: Fix homepage 500 crashes by mapping Spotify Search API properties and filtering nulls
+db357dbcf827de44b277bb6caafd6ae35fa2025a 0331858804bf985076515c173fa953730665513b Alok <alok4709s@gmail.com> 1773928452 +0530	commit: fix(spotify): add fetch revalidate to prevent rate limiting offline mode
+0331858804bf985076515c173fa953730665513b 6a0362f215e506708d593b5e693c9c0ba4fd2eb9 Alok <alok4709s@gmail.com> 1773929595 +0530	commit: feat(spotify): add in-memory token caching and exponential backoff retry for rate limits
+6a0362f215e506708d593b5e693c9c0ba4fd2eb9 a780cfa9448ce73d91655b7a0bd4322281af9dc7 Alok <alok4709s@gmail.com> 1773930290 +0530	commit: fix(spotify): add static cache buster to bypass stuck Vercel Data Cache for rate limits
+a780cfa9448ce73d91655b7a0bd4322281af9dc7 300437c14a0b8dfc2107a7108b6513c87bd895ce Alok <alok4709s@gmail.com> 1774013056 +0530	commit: feat: fix web player offline mode + add lyrics, wrapped dashboard, and music visualizer pages
+300437c14a0b8dfc2107a7108b6513c87bd895ce 367f328571acc373416079d0b012fb32882cb1ab Alok <alok4709s@gmail.com> 1774013405 +0530	commit: fix: remove URL cache-buster breaking Spotify API (400 Invalid limit)
+367f328571acc373416079d0b012fb32882cb1ab 32f479792cfee3be1985af115fd04b1a06dabbdb Alok <alok4709s@gmail.com> 1774016911 +0530	commit: added lyrics, wrapped, visualizer and fixed spotify api cache issue
+32f479792cfee3be1985af115fd04b1a06dabbdb 7b1a703dd42421a1432f14b693a9abd18730470e Alok <alok4709s@gmail.com> 1774174094 +0530	commit: feat: implement web player search page
+7b1a703dd42421a1432f14b693a9abd18730470e 4274c9a981a1feb53ee29c727e752a35d5fb9df7 Alok <alok4709s@gmail.com> 1774175214 +0530	commit: fix: update spotify login flow and token handling
+4274c9a981a1feb53ee29c727e752a35d5fb9df7 b61cee06988dfabf8253d9fe801c4791de2fd912 Alok <alok4709s@gmail.com> 1774175782 +0530	commit: fix: hide connect spotify button when already connected
+b61cee06988dfabf8253d9fe801c4791de2fd912 bfe7c41d26e5cf6173f2e241675014d4aa0daade Alok <alok4709s@gmail.com> 1774176479 +0530	commit: feat: force spotify login to protect web-player routes
+bfe7c41d26e5cf6173f2e241675014d4aa0daade 481cb4bfff86e13e09bb011184472d80fe6f0e26 Alok <alok4709s@gmail.com> 1774177107 +0530	commit: feat: redirect download buttons to official spotify download page
+481cb4bfff86e13e09bb011184472d80fe6f0e26 9046436649c875dfacbf082862d79dd7977db695 Alok <alok4709s@gmail.com> 1774179019 +0530	commit: feat: add magic ui word rotate animation to features heading
+9046436649c875dfacbf082862d79dd7977db695 584eee05b459be421299391fdb2ae2db5c6a9e26 Alok <alok4709s@gmail.com> 1774179934 +0530	commit: fix: update static links to functional official spotify urls
+584eee05b459be421299391fdb2ae2db5c6a9e26 ade91a56827bcc53f0ee61f760922233baa13652 Alok <alok4709s@gmail.com> 1774180424 +0530	commit: fix(footer): revert text links to internal routes keeping social external
+ade91a56827bcc53f0ee61f760922233baa13652 5034588d25672e07807fb485fe8d26e60086397c Alok <alok4709s@gmail.com> 1774180645 +0530	commit: fix(footer): remove official spotify links to reflect personal project
+5034588d25672e07807fb485fe8d26e60086397c 7b8dfcb5a70a87c9076261700e3f915190a4b25d Alok <alok4709s@gmail.com> 1774181581 +0530	commit: feat(footer): implement content pages using Magic UI components BlurFade, Particles, SparklesText
+7b8dfcb5a70a87c9076261700e3f915190a4b25d 5492c2abbbb4d4db5f38f3278077ae6be0af8ab7 Alok <alok4709s@gmail.com> 1774181821 +0530	commit: fix: correct Magic UI named exports and SparklesText children prop
+5492c2abbbb4d4db5f38f3278077ae6be0af8ab7 91ce916fc45fa2e59a63592e8ebd80fd21343330 Alok <alok4709s@gmail.com> 1774182692 +0530	commit: feat: add ScrollProgress, fix Jobs hero image, enhance For the Record page, auto-redirect on scroll end
+91ce916fc45fa2e59a63592e8ebd80fd21343330 b2f0db7906c5b179d0cc6b9b8e25e04b13f69462 Alok <alok4709s@gmail.com> 1774183135 +0530	commit: fix: remove scroll progress and auto-redirect from single-page content layouts
+b2f0db7906c5b179d0cc6b9b8e25e04b13f69462 c26015e6c679d1c7c2fb73c57db6258add8548cd Alok <alok4709s@gmail.com> 1774185445 +0530	commit: feat: integrate Magic UI components across sections
+c26015e6c679d1c7c2fb73c57db6258add8548cd 3b44205aad796175a28649d129109b5964dc5cc9 Alok <alok4709s@gmail.com> 1774186552 +0530	commit: feat: animate artists page hero and stats with Magic UI components
+3b44205aad796175a28649d129109b5964dc5cc9 fb3c7f3e75f9fdd67ecde8fe858b706383d7602a Alok <alok4709s@gmail.com> 1774187193 +0530	commit: fix: force TextAnimate to play on mount instead of scroll
+fb3c7f3e75f9fdd67ecde8fe858b706383d7602a d0d662a528eab6ad8fc22367e5475f9e0c99961e Alok <alok4709s@gmail.com> 1774187625 +0530	commit: fix hydration mismatch and valid HTML tags for animations
+d0d662a528eab6ad8fc22367e5475f9e0c99961e ccc3c2401f0655e220edf76d374c2e7ae808693c Alok <alok4709s@gmail.com> 1774188029 +0530	commit: fix: WordRotate alignment, glow clipping, and NumberTicker scroll trigger
+ccc3c2401f0655e220edf76d374c2e7ae808693c 733428e592b5f44e1c28e325e84c3c331d8e33b2 Alok <alok4709s@gmail.com> 1774192394 +0530	commit: chore: trigger vercel deployment
+733428e592b5f44e1c28e325e84c3c331d8e33b2 309786b1969619c5bc0948b355bdf8704ac23ed2 Alok <alok4709s@gmail.com> 1774193061 +0530	commit: feat: animate description text
+309786b1969619c5bc0948b355bdf8704ac23ed2 4f181a5765b3770c160829c74aad9fcbd168ccf5 Alok <alok4709s@gmail.com> 1774193478 +0530	commit: chore: ignore eslint and ts errors for vercel build
+4f181a5765b3770c160829c74aad9fcbd168ccf5 440eb1e409cae80aae95880dceababd65db37db7 Alok <alok4709s@gmail.com> 1774198231 +0530	commit: chore: remove eslint config to bypass vercel build errors
+440eb1e409cae80aae95880dceababd65db37db7 3ab29446f0ba38c7fd565417e47041511c320e67 Alok <alok4709s@gmail.com> 1774204176 +0530	commit: feat: add animated text banner to home page
+3ab29446f0ba38c7fd565417e47041511c320e67 d394731eb209288ee5fb2965c070a824d5301b1a Alok <alok4709s@gmail.com> 1774209275 +0530	commit: fix: update lenis and sync packagelock
+d394731eb209288ee5fb2965c070a824d5301b1a e78f7e1fb59fec2d7ca367ca4c583197d54bd895 Alok <alok4709s@gmail.com> 1774210793 +0530	commit: style: remove banner background

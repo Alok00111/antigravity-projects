@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258870656316",
+    "project_id": "cortisol-209b7",
+    "storage_bucket": "cortisol-209b7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258870656316:android:ef5317cb3b33a9f0457239",
+        "android_client_info": {
+          "package_name": "com.antigravity.cortisol.cortisol_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpthWQiCJ3cPTqMS2jORP_wPwvu8pHuWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

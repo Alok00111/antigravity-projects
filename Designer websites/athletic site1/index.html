@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletic Physique & Workout Visualizer | Master Your V-Shape</title>
+    <meta name="description"
+        content="Interactive 3D anatomy explorer and vegetarian nutrition dashboard. Visualize the muscles that build an elite athletic physique and fuel them with precision.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="nav" id="main-nav">
+        <div class="nav__logo">
+            <span class="nav__logo-icon">◆</span>
+            <span class="nav__logo-text">ATHLETIC<span class="accent">PHYSIQUE</span></span>
+        </div>
+        <div class="nav__links">
+            <a href="#hero" class="nav__link nav__link--active" data-section="hero">Home</a>
+            <a href="#musculature" class="nav__link" data-section="musculature">Anatomy</a>
+            <a href="#nutrition" class="nav__link" data-section="nutrition">Nutrition</a>
+        </div>
+        <button class="nav__cta magnetic-btn" id="nav-cta">
+            <span>Get Started</span>
+        </button>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero__overlay"></div>
+        <div class="hero__ambient"></div>
+
+        <div class="hero__content" id="hero-content">
+            <p class="hero__tag">3D INTERACTIVE ANATOMY EXPLORER</p>
+            <h1 class="hero__title">
+                <span class="hero__title-line">SCULPT YOUR</span>
+                <span class="hero__title-line hero__title-line--accent">ATHLETIC</span>
+                <span class="hero__title-line">PHYSIQUE</span>
+            </h1>
+            <p class="hero__subtitle">Visualize every muscle. Fuel with precision. Build the V-shape that defines elite
+                aesthetics.</p>
+            <button class="hero__cta magnetic-btn" id="hero-cta">
+                <span class="hero__cta-text">EXPLORE ANATOMY</span>
+                <span class="hero__cta-glow"></span>
+            </button>
+        </div>
+
+        <div class="hero__scroll-indicator" id="scroll-indicator">
+            <div class="hero__scroll-line"></div>
+            <span class="hero__scroll-text">SCROLL TO EXPLORE</span>
+        </div>
+    </section>
+
+    <!-- ===== MUSCULATURE SECTION ===== -->
+    <section class="musculature" id="musculature">
+        <div class="musculature__model-anchor" id="model-anchor">
+            <!-- The 3D canvas repositions here on scroll -->
+        </div>
+
+        <div class="musculature__header">
+            <p class="section-tag">MUSCLE ARCHITECTURE</p>
+            <h2 class="section-title">The V-Shape <span class="accent">Blueprint</span></h2>
+            <p class="section-subtitle">Hover over a card to illuminate the muscle on the 3D model. Drag the model to
+                explore from any angle.</p>
+        </div>
+
+        <div class="musculature__grid" id="muscle-cards">
+            <!-- Latissimus Dorsi -->
+            <div class="muscle-card" data-muscle="lats" id="card-lats">
+                <div class="muscle-card__inner">
+                    <div class="muscle-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <path d="M24 4 L8 20 L14 40 L24 44 L34 40 L40 20 Z" stroke="currentColor" stroke-width="1.5"
+                                fill="none" />
+                            <path d="M14 20 L24 28 L34 20" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </div>
+                    <h3 class="muscle-card__name">Latissimus Dorsi</h3>
+                    <p class="muscle-card__aka">THE WINGS</p>
+                    <p class="muscle-card__desc">The broadest muscle of the back. Creates the dramatic V-taper that
+                        defines an athletic silhouette. Responsible for shoulder adduction and extension.</p>
+                    <div class="muscle-card__stats">
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">WIDTH</span>
+                            <span class="muscle-card__stat-label">Primary Impact</span>
+                        </div>
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">Pull-ups</span>
+                            <span class="muscle-card__stat-label">Key Exercise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lateral Deltoids -->
+            <div class="muscle-card" data-muscle="side-delts" id="card-side-delts">
+                <div class="muscle-card__inner">
+                    <div class="muscle-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="16" r="10" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M14 16 L8 32 M34 16 L40 32" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </div>
+                    <h3 class="muscle-card__name">Lateral Deltoids</h3>
+                    <p class="muscle-card__aka">THE CAPS</p>
+                    <p class="muscle-card__desc">The middle head of the deltoid muscle. Provides the capped, rounded
+                        shoulder look that widens the frame and exaggerates the V-taper from the front.</p>
+                    <div class="muscle-card__stats">
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">BREADTH</span>
+                            <span class="muscle-card__stat-label">Primary Impact</span>
+                        </div>
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">Lateral Raise</span>
+                            <span class="muscle-card__stat-label">Key Exercise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Anterior Deltoids -->
+            <div class="muscle-card" data-muscle="front-delts" id="card-front-delts">
+                <div class="muscle-card__inner">
+                    <div class="muscle-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="18" r="8" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M16 18 L12 36 M32 18 L36 36" stroke="currentColor" stroke-width="1.5" />
+                            <path d="M20 10 L28 10" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </div>
+                    <h3 class="muscle-card__name">Anterior Deltoids</h3>
+                    <p class="muscle-card__aka">THE FRONT SHELF</p>
+                    <p class="muscle-card__desc">The front head of the shoulder. Contributes to the 3D rounded look and
+                        is critical for pressing movements and front-facing aesthetics.</p>
+                    <div class="muscle-card__stats">
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">DEPTH</span>
+                            <span class="muscle-card__stat-label">Primary Impact</span>
+                        </div>
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">OHP</span>
+                            <span class="muscle-card__stat-label">Key Exercise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trapezius -->
+            <div class="muscle-card" data-muscle="traps" id="card-traps">
+                <div class="muscle-card__inner">
+                    <div class="muscle-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <path d="M24 8 L10 24 L18 40 L30 40 L38 24 Z" stroke="currentColor" stroke-width="1.5"
+                                fill="none" />
+                            <line x1="24" y1="8" x2="24" y2="40" stroke="currentColor" stroke-width="1" />
+                        </svg>
+                    </div>
+                    <h3 class="muscle-card__name">Trapezius</h3>
+                    <p class="muscle-card__aka">THE YOKE</p>
+                    <p class="muscle-card__desc">A large diamond-shaped muscle spanning the upper back to the neck.
+                        Creates the powerful, thick look that conveys raw strength and stability.</p>
+                    <div class="muscle-card__stats">
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">POWER</span>
+                            <span class="muscle-card__stat-label">Primary Impact</span>
+                        </div>
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">Shrugs</span>
+                            <span class="muscle-card__stat-label">Key Exercise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pectorals -->
+            <div class="muscle-card" data-muscle="chest" id="card-chest">
+                <div class="muscle-card__inner">
+                    <div class="muscle-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <ellipse cx="17" cy="22" rx="9" ry="12" stroke="currentColor" stroke-width="1.5" />
+                            <ellipse cx="31" cy="22" rx="9" ry="12" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                    </div>
+                    <h3 class="muscle-card__name">Pectoralis Major</h3>
+                    <p class="muscle-card__aka">THE PLATES</p>
+                    <p class="muscle-card__desc">The large fan-shaped chest muscle. Well-developed pecs create the
+                        shelf-like upper body that commands attention and balances the V-taper from the front.</p>
+                    <div class="muscle-card__stats">
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">MASS</span>
+                            <span class="muscle-card__stat-label">Primary Impact</span>
+                        </div>
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">Bench Press</span>
+                            <span class="muscle-card__stat-label">Key Exercise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Obliques -->
+            <div class="muscle-card" data-muscle="obliques" id="card-obliques">
+                <div class="muscle-card__inner">
+                    <div class="muscle-card__icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <path d="M16 12 L12 36 L24 40 L36 36 L32 12 Z" stroke="currentColor" stroke-width="1.5"
+                                fill="none" />
+                            <path d="M18 20 L30 20 M17 28 L31 28" stroke="currentColor" stroke-width="1" />
+                        </svg>
+                    </div>
+                    <h3 class="muscle-card__name">External Obliques</h3>
+                    <p class="muscle-card__aka">THE FRAME</p>
+                    <p class="muscle-card__desc">The muscles running diagonally along the sides of the abdomen. Create
+                        the chiseled, tapered waistline that accentuates the V-shape from every angle.</p>
+                    <div class="muscle-card__stats">
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">TAPER</span>
+                            <span class="muscle-card__stat-label">Primary Impact</span>
+                        </div>
+                        <div class="muscle-card__stat">
+                            <span class="muscle-card__stat-value">Cable Twist</span>
+                            <span class="muscle-card__stat-label">Key Exercise</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NUTRITION SECTION ===== -->
+    <section class="nutrition" id="nutrition">
+        <div class="nutrition__header">
+            <p class="section-tag">VEGETARIAN FUEL</p>
+            <h2 class="section-title">Macro <span class="accent">Dashboard</span></h2>
+            <p class="section-subtitle">Select foods to build your daily plate. Watch your macros update in real-time.
+            </p>
+        </div>
+
+        <div class="nutrition__dashboard">
+            <!-- Macro Chart -->
+            <div class="nutrition__chart-panel" id="macro-chart-panel">
+                <div class="nutrition__chart-ring" id="macro-ring">
+                    <svg viewBox="0 0 200 200" class="donut-chart" id="donut-chart">
+                        <circle cx="100" cy="100" r="85" class="donut-track" />
+                        <circle cx="100" cy="100" r="85" class="donut-segment donut-segment--protein" id="seg-protein"
+                            stroke-dasharray="0 534" stroke-dashoffset="0" />
+                        <circle cx="100" cy="100" r="85" class="donut-segment donut-segment--carbs" id="seg-carbs"
+                            stroke-dasharray="0 534" stroke-dashoffset="0" />
+                        <circle cx="100" cy="100" r="85" class="donut-segment donut-segment--fat" id="seg-fat"
+                            stroke-dasharray="0 534" stroke-dashoffset="0" />
+                    </svg>
+                    <div class="nutrition__chart-center">
+                        <span class="nutrition__chart-cal" id="total-cal">0</span>
+                        <span class="nutrition__chart-cal-label">KCAL</span>
+                    </div>
+                </div>
+                <div class="nutrition__macro-legend">
+                    <div class="macro-legend-item">
+                        <span class="macro-dot macro-dot--protein"></span>
+                        <span class="macro-label">Protein</span>
+                        <span class="macro-value" id="macro-protein">0g</span>
+                    </div>
+                    <div class="macro-legend-item">
+                        <span class="macro-dot macro-dot--carbs"></span>
+                        <span class="macro-label">Carbs</span>
+                        <span class="macro-value" id="macro-carbs">0g</span>
+                    </div>
+                    <div class="macro-legend-item">
+                        <span class="macro-dot macro-dot--fat"></span>
+                        <span class="macro-label">Fat</span>
+                        <span class="macro-value" id="macro-fat">0g</span>
+                    </div>
+                </div>
+                <!-- Daily target bars -->
+                <div class="nutrition__targets" id="daily-targets">
+                    <div class="target-bar">
+                        <div class="target-bar__header">
+                            <span class="target-bar__name">Protein</span>
+                            <span class="target-bar__value"><span id="target-protein-val">0</span> / 150g</span>
+                        </div>
+                        <div class="target-bar__track">
+                            <div class="target-bar__fill target-bar__fill--protein" id="target-protein-fill"
+                                style="width:0%"></div>
+                        </div>
+                    </div>
+                    <div class="target-bar">
+                        <div class="target-bar__header">
+                            <span class="target-bar__name">Carbs</span>
+                            <span class="target-bar__value"><span id="target-carbs-val">0</span> / 300g</span>
+                        </div>
+                        <div class="target-bar__track">
+                            <div class="target-bar__fill target-bar__fill--carbs" id="target-carbs-fill"
+                                style="width:0%"></div>
+                        </div>
+                    </div>
+                    <div class="target-bar">
+                        <div class="target-bar__header">
+                            <span class="target-bar__name">Fat</span>
+                            <span class="target-bar__value"><span id="target-fat-val">0</span> / 80g</span>
+                        </div>
+                        <div class="target-bar__track">
+                            <div class="target-bar__fill target-bar__fill--fat" id="target-fat-fill" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Food List -->
+            <div class="nutrition__food-list" id="food-list">
+                <!-- Each food-row is generated or we can list them statically -->
+                <div class="food-row" data-protein="36" data-carbs="0" data-fat="5" data-cal="190" id="food-paneer">
+                    <div class="food-row__main">
+                        <span class="food-row__emoji">🧀</span>
+                        <div class="food-row__info">
+                            <span class="food-row__name">Paneer (Cottage Cheese)</span>
+                            <span class="food-row__serving">per 200g serving</span>
+                        </div>
+                        <div class="food-row__quick-macros">
+                            <span class="food-row__qm food-row__qm--protein">36g P</span>
+                            <span class="food-row__qm food-row__qm--cal">190 kcal</span>
+                        </div>
+                        <button class="food-row__toggle" aria-label="Add Paneer to daily intake">
+                            <span class="food-row__plus">+</span>
+                        </button>
+                    </div>
+                    <div class="food-row__detail">
+                        <div class="food-row__macro-bars">
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--protein" style="width:70%"></div>
+                                <span>Protein 36g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--carbs" style="width:0%"></div>
+                                <span>Carbs 0g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--fat" style="width:10%"></div>
+                                <span>Fat 5g</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-row" data-protein="26" data-carbs="4" data-fat="10" data-cal="210" id="food-tofu">
+                    <div class="food-row__main">
+                        <span class="food-row__emoji">🫘</span>
+                        <div class="food-row__info">
+                            <span class="food-row__name">Firm Tofu</span>
+                            <span class="food-row__serving">per 200g serving</span>
+                        </div>
+                        <div class="food-row__quick-macros">
+                            <span class="food-row__qm food-row__qm--protein">26g P</span>
+                            <span class="food-row__qm food-row__qm--cal">210 kcal</span>
+                        </div>
+                        <button class="food-row__toggle" aria-label="Add Tofu to daily intake">
+                            <span class="food-row__plus">+</span>
+                        </button>
+                    </div>
+                    <div class="food-row__detail">
+                        <div class="food-row__macro-bars">
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--protein" style="width:52%"></div>
+                                <span>Protein 26g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--carbs" style="width:8%"></div>
+                                <span>Carbs 4g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--fat" style="width:20%"></div>
+                                <span>Fat 10g</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-row" data-protein="18" data-carbs="60" data-fat="3" data-cal="340" id="food-lentils">
+                    <div class="food-row__main">
+                        <span class="food-row__emoji">🍲</span>
+                        <div class="food-row__info">
+                            <span class="food-row__name">Red Lentils (Masoor Dal)</span>
+                            <span class="food-row__serving">per 200g cooked</span>
+                        </div>
+                        <div class="food-row__quick-macros">
+                            <span class="food-row__qm food-row__qm--protein">18g P</span>
+                            <span class="food-row__qm food-row__qm--cal">340 kcal</span>
+                        </div>
+                        <button class="food-row__toggle" aria-label="Add Lentils to daily intake">
+                            <span class="food-row__plus">+</span>
+                        </button>
+                    </div>
+                    <div class="food-row__detail">
+                        <div class="food-row__macro-bars">
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--protein" style="width:36%"></div>
+                                <span>Protein 18g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--carbs" style="width:100%"></div>
+                                <span>Carbs 60g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--fat" style="width:6%"></div><span>Fat
+                                    3g</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-row" data-protein="14" data-carbs="46" data-fat="10" data-cal="330"
+                    id="food-chickpeas">
+                    <div class="food-row__main">
+                        <span class="food-row__emoji">🫛</span>
+                        <div class="food-row__info">
+                            <span class="food-row__name">Chickpeas (Chole)</span>
+                            <span class="food-row__serving">per 200g cooked</span>
+                        </div>
+                        <div class="food-row__quick-macros">
+                            <span class="food-row__qm food-row__qm--protein">14g P</span>
+                            <span class="food-row__qm food-row__qm--cal">330 kcal</span>
+                        </div>
+                        <button class="food-row__toggle" aria-label="Add Chickpeas to daily intake">
+                            <span class="food-row__plus">+</span>
+                        </button>
+                    </div>
+                    <div class="food-row__detail">
+                        <div class="food-row__macro-bars">
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--protein" style="width:28%"></div>
+                                <span>Protein 14g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--carbs" style="width:77%"></div>
+                                <span>Carbs 46g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--fat" style="width:20%"></div>
+                                <span>Fat 10g</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-row" data-protein="6" data-carbs="1" data-fat="5" data-cal="78" id="food-eggs">
+                    <div class="food-row__main">
+                        <span class="food-row__emoji">🥚</span>
+                        <div class="food-row__info">
+                            <span class="food-row__name">Whole Eggs</span>
+                            <span class="food-row__serving">per egg (large)</span>
+                        </div>
+                        <div class="food-row__quick-macros">
+                            <span class="food-row__qm food-row__qm--protein">6g P</span>
+                            <span class="food-row__qm food-row__qm--cal">78 kcal</span>
+                        </div>
+                        <button class="food-row__toggle" aria-label="Add Egg to daily intake">
+                            <span class="food-row__plus">+</span>
+                        </button>
+                    </div>
+                    <div class="food-row__detail">
+                        <div class="food-row__macro-bars">
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--protein" style="width:12%"></div>
+                                <span>Protein 6g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--carbs" style="width:2%"></div>
+                                <span>Carbs 1g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--fat" style="width:10%"></div>
+                                <span>Fat 5g</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-row" data-protein="10" data-carbs="58" data-fat="4" data-cal="310" id="food-quinoa">
+                    <div class="food-row__main">
+                        <span class="food-row__emoji">🌾</span>
+                        <div class="food-row__info">
+                            <span class="food-row__name">Quinoa</span>
+                            <span class="food-row__serving">per 200g cooked</span>
+                        </div>
+                        <div class="food-row__quick-macros">
+                            <span class="food-row__qm food-row__qm--protein">10g P</span>
+                            <span class="food-row__qm food-row__qm--cal">310 kcal</span>
+                        </div>
+                        <button class="food-row__toggle" aria-label="Add Quinoa to daily intake">
+                            <span class="food-row__plus">+</span>
+                        </button>
+                    </div>
+                    <div class="food-row__detail">
+                        <div class="food-row__macro-bars">
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--protein" style="width:20%"></div>
+                                <span>Protein 10g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--carbs" style="width:97%"></div>
+                                <span>Carbs 58g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--fat" style="width:8%"></div><span>Fat
+                                    4g</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-row" data-protein="20" data-carbs="12" data-fat="6" data-cal="180"
+                    id="food-greek-yogurt">
+                    <div class="food-row__main">
+                        <span class="food-row__emoji">🥛</span>
+                        <div class="food-row__info">
+                            <span class="food-row__name">Greek Yogurt</span>
+                            <span class="food-row__serving">per 200g serving</span>
+                        </div>
+                        <div class="food-row__quick-macros">
+                            <span class="food-row__qm food-row__qm--protein">20g P</span>
+                            <span class="food-row__qm food-row__qm--cal">180 kcal</span>
+                        </div>
+                        <button class="food-row__toggle" aria-label="Add Greek Yogurt to daily intake">
+                            <span class="food-row__plus">+</span>
+                        </button>
+                    </div>
+                    <div class="food-row__detail">
+                        <div class="food-row__macro-bars">
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--protein" style="width:40%"></div>
+                                <span>Protein 20g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--carbs" style="width:20%"></div>
+                                <span>Carbs 12g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--fat" style="width:12%"></div>
+                                <span>Fat 6g</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="food-row" data-protein="30" data-carbs="2" data-fat="2" data-cal="150" id="food-whey">
+                    <div class="food-row__main">
+                        <span class="food-row__emoji">💪</span>
+                        <div class="food-row__info">
+                            <span class="food-row__name">Whey Protein Isolate</span>
+                            <span class="food-row__serving">per scoop (35g)</span>
+                        </div>
+                        <div class="food-row__quick-macros">
+                            <span class="food-row__qm food-row__qm--protein">30g P</span>
+                            <span class="food-row__qm food-row__qm--cal">150 kcal</span>
+                        </div>
+                        <button class="food-row__toggle" aria-label="Add Whey Protein to daily intake">
+                            <span class="food-row__plus">+</span>
+                        </button>
+                    </div>
+                    <div class="food-row__detail">
+                        <div class="food-row__macro-bars">
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--protein" style="width:60%"></div>
+                                <span>Protein 30g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--carbs" style="width:4%"></div>
+                                <span>Carbs 2g</span>
+                            </div>
+                            <div class="food-row__bar">
+                                <div class="food-row__bar-fill food-row__bar-fill--fat" style="width:4%"></div><span>Fat
+                                    2g</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="footer">
+        <div class="footer__inner">
+            <p class="footer__brand">ATHLETIC<span class="accent">PHYSIQUE</span></p>
+            <p class="footer__copy">Designed for those who sculpt, not settle. &copy; 2026</p>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPTS (CDN) ===== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+
+    <!-- App Scripts -->
+    <script src="js/three-scene.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/ui-components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
